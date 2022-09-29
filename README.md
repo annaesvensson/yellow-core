@@ -16,7 +16,7 @@ Set `Status: unlisted` in the [page settings](#settings-page) at the top of a pa
 
 ## How to redirect a page
 
-Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit) and on your computer.
+Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
 ## How to customise a page 
 
@@ -125,7 +125,7 @@ Layout file for default page:
 
 `public` = page is a normal page  
 `private` = page is not visible, user needs to enter password, [requires private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
-`draft` = page is not visible, user needs to log in, [requires draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft)  
+`draft` = page is not visible, user needs to log in, [requires draft extension](https://github.com/annaesvensson/yellow-draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not visible, but can be included in other pages  
 
@@ -142,7 +142,7 @@ Layout file for default page:
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/core.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 
