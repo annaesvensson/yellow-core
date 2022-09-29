@@ -16,7 +16,7 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 ## Hur man omdirigerar en sida
 
-Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/README-sv.md) och på din dator. 
+Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md) och på din dator. 
 
 ## Hur man anpassar en sida
 
