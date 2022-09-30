@@ -124,7 +124,7 @@ Layout file for default page:
 <a id="settings-status"></a>The following page status values are supported:
 
 `public` = page is a normal page  
-`private` = page is not visible, user needs to enter password, [requires private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/master/private)  
+`private` = page is not visible, user needs to enter password, [requires private extension](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/main/private)  
 `draft` = page is not visible, user needs to log in, [requires draft extension](https://github.com/annaesvensson/yellow-draft)  
 `unlisted` = page is not visible, but can be accessed with the correct link  
 `shared` = page is not visible, but can be included in other pages  
