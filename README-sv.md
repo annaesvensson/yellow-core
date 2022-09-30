@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.89
+# Core 0.8.90
 
 Webbplatsens kärnfunktion.
 
@@ -73,9 +73,9 @@ Layoutfil för standardsidan:
 `Sitename` = webbplatsens namn  
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
+`Language` = standardspråk  
 `Layout` = standardlayout  
 `Theme` = standardtema  
-`Language` = standardspråk  
 `Parser` = standard sidparser  
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 `CoreServerUrl` = URL av webbplatsen, när den används som webbpubliceringssystem  
@@ -106,10 +106,10 @@ Layoutfil för standardsidan:
 `Description` = sidans beskrivning  
 `Author` = sidans författare, kommaseparerade  
 `Email` = email av sidans författare  
+`Language` = sidans språk  
 `Layout` = sidans layout  
 `LayoutNew` = sidans layout för att skapa en ny sida  
 `Theme` = sidans tema  
-`Language` = sidans språk  
 `Parser` = sidans parser  
 `Status` = sidans status, [stödda statusvärden](#inställningar-status)  
 `Redirect` = omdirigera till en ny sida eller URL  
