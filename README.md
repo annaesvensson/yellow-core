@@ -146,4 +146,4 @@ Layout file for default page:
 
 ## Developer
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Mark Seuffert, David Fehrmann. [Get help](https://datenstrom.se/yellow/help/).

@@ -146,4 +146,4 @@ Layoutfil för standardsidan:
 
 ## Utvecklare
 
-Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Mark Seuffert, David Fehrmann. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

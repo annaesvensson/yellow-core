@@ -146,4 +146,4 @@ Layoutdatei für Standard-Seite:
 
 ## Entwickler
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Mark Seuffert, David Fehrmann. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
