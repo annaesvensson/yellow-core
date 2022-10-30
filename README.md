@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.97
+# Core 0.8.98
 
 Core functionality of the website.
 
@@ -73,7 +73,7 @@ Layout file for default page:
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
-`Language` = default language  
+`Language` = default language, e.g. `en`  
 `Layout` = default layout  
 `Theme` = default theme  
 `Parser` = default page parser  
@@ -106,7 +106,7 @@ Layout file for default page:
 `Description` = page description  
 `Author` = page author(s), comma separated  
 `Email` = email of page author  
-`Language` = page language  
+`Language` = page language, e.g. `en`  
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  

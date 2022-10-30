@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.97
+# Core 0.8.98
 
 Webbplatsens kärnfunktion.
 
@@ -73,7 +73,7 @@ Layoutfil för standardsidan:
 `Sitename` = webbplatsens namn  
 `Author` = webmasterns namn  
 `Email` = webmasterns email  
-`Language` = standardspråk  
+`Language` = standardspråk, t.ex. `sv`  
 `Layout` = standardlayout  
 `Theme` = standardtema  
 `Parser` = standard sidparser  
@@ -106,7 +106,7 @@ Layoutfil för standardsidan:
 `Description` = sidans beskrivning  
 `Author` = sidans författare, kommaseparerade  
 `Email` = email av sidans författare  
-`Language` = sidans språk  
+`Language` = sidans språk, t.ex. `sv`  
 `Layout` = sidans layout  
 `LayoutNew` = sidans layout för att skapa en ny sida  
 `Theme` = sidans tema  
