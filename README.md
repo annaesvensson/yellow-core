@@ -76,7 +76,7 @@ Layout file for default page:
 `Language` = default language, e.g. `en`  
 `Layout` = default layout  
 `Theme` = default theme  
-`Parser` = default page parser  
+`Parser` = default content parser  
 `Status` = default page status, [supported status values](#settings-status)  
 `CoreServerUrl` = URL of the website, when used as a content management system  
 `CoreStaticUrl` = URL of the website, when used as a static site generator  
@@ -110,7 +110,7 @@ Layout file for default page:
 `Layout` = page layout  
 `LayoutNew` = page layout for creating a new page  
 `Theme` = page theme  
-`Parser` = page parser  
+`Parser` = page content parser  
 `Status` = page status, [supported status values](#settings-status)  
 `Redirect` = redirect to another page or URL  
 `Image` = page image  

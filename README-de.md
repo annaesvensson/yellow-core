@@ -76,7 +76,7 @@ Layoutdatei für Standard-Seite:
 `Language` = Standard-Sprache, z.B. `de`  
 `Layout` = Standard-Layout  
 `Theme` = Standard-Thema  
-`Parser` = Standard-Seitenparser  
+`Parser` = Standard-Inhaltsparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreServerUrl` = URL der Webseite, bei Verwendung als Content-Management-System  
 `CoreStaticUrl` = URL der Webseite, bei Verwendung als Static-Site-Generator  
@@ -110,7 +110,7 @@ Layoutdatei für Standard-Seite:
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
 `Theme` = Thema der Seite  
-`Parser` = Parser der Seite  
+`Parser` = Inhaltsparser der Seite  
 `Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
 `Image` = Bild der Seite  

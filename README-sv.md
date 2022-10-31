@@ -76,7 +76,7 @@ Layoutfil för standardsidan:
 `Language` = standardspråk, t.ex. `sv`  
 `Layout` = standardlayout  
 `Theme` = standardtema  
-`Parser` = standard sidparser  
+`Parser` = standard innehållsparser  
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 `CoreServerUrl` = URL av webbplatsen, när den används som webbpubliceringssystem  
 `CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
@@ -110,7 +110,7 @@ Layoutfil för standardsidan:
 `Layout` = sidans layout  
 `LayoutNew` = sidans layout för att skapa en ny sida  
 `Theme` = sidans tema  
-`Parser` = sidans parser  
+`Parser` = sidans innehållsparser  
 `Status` = sidans status, [stödda statusvärden](#inställningar-status)  
 `Redirect` = omdirigera till en ny sida eller URL  
 `Image` = sidans bild  
