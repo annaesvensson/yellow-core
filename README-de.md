@@ -140,9 +140,11 @@ Layoutdatei für Standard-Seite:
 `system/layouts/navigation.html` = Layoutdatei für Standard-HTML-Navigation  
 `system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Pagination  
 
+Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
+
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

@@ -140,9 +140,11 @@ Layoutfil för standardsidan:
 `system/layouts/navigation.html` = layoutfil för standard HTML-navigering  
 `system/layouts/pagination.html` = layoutfil för standard HTML-paginering  
 
+Loggfilen finns i filen `system/extensions/yellow-website.log`.
+
 ## Installation
 
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 

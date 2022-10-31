@@ -140,9 +140,11 @@ Layout file for default page:
 `system/layouts/navigation.html` = layout file for default HTML navigation  
 `system/layouts/pagination.html` = layout file for default HTML pagination  
 
+The log file can be found in file `system/extensions/yellow-website.log`.
+
 ## Installation
 
-[Download extension](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
