@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.98
+# Core 0.8.99
 
 Core functionality of the website.
 
@@ -20,7 +20,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to customise a page 
 
-Set `Layout` in the [page settings](#settings-page) at the top of a page. All layout files are stored in your `system/layouts` folder. The HTML code of a page can be customised in the layout file. Have a look at the default layout file and make your own layout files when needed. Your changes will not be overwritten when the website is updated.
+Set `Layout` in the [page settings](#settings-page) at the top of a page. All layout files are stored in your `system/layouts` folder. The HTML code of a page can be customised in the layout file. Have a look at the default layout file and make your own layout files when needed. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout).
 
 ## Examples
 

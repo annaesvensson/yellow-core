@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.98
+# Core 0.8.99
 
 Webbplatsens kärnfunktion.
 
@@ -20,7 +20,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man anpassar en sida
 
-Ställ `layout` i [sidinställningarna](#inställningar-page) högst upp på en sida. Alla layoutfiler finns i `system/layouts` mappen. HTML-koden för en sida kan du anpassa i layoutfilen. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler om det behövs. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras.
+Ställ `layout` i [sidinställningarna](#inställningar-page) högst upp på en sida. Alla layoutfiler finns i `system/layouts` mappen. HTML-koden för en sida kan du anpassa i layoutfilen. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler om det behövs. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout).
 
 ## Exempel
 
