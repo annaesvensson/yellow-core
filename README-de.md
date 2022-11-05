@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.99
+# Core 0.8.100
 
 Kernfunktionalität der Webseite.
 
@@ -78,14 +78,13 @@ Layoutdatei für Standard-Seite:
 `Theme` = Standard-Thema  
 `Parser` = Standard-Inhaltsparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
-`CoreServerUrl` = URL der Webseite, bei Verwendung als Content-Management-System  
-`CoreStaticUrl` = URL der Webseite, bei Verwendung als Static-Site-Generator  
+`CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreTimezone` = Zeitzone der Webseite, [unterstützte Zeitzonen](https://www.php.net/manual/de/timezones.php)  
 `CoreContentExtension` = Dateiformat für den Inhalt  
 `CoreContentDefaultFile` = Inhaltsdatei für Verzeichnisse  
 `CoreContentErrorFile` =  Inhaltsdatei für Fehlerseite  
-`CoreUserFile` = Datei mit Benutzereinstellungen  
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
+`CoreUserFile` = Datei mit Benutzereinstellungen  
 `CoreWebsiteFile` = Logdatei der Webseite  
 `CoreMediaLocation` = Ort für Mediendateien  
 `CoreDownloadLocation` = Ort für Dateien zum Herunterladen  

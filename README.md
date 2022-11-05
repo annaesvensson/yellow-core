@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.99
+# Core 0.8.100
 
 Core functionality of the website.
 
@@ -78,14 +78,13 @@ Layout file for default page:
 `Theme` = default theme  
 `Parser` = default content parser  
 `Status` = default page status, [supported status values](#settings-status)  
-`CoreServerUrl` = URL of the website, when used as a content management system  
-`CoreStaticUrl` = URL of the website, when used as a static site generator  
+`CoreServerUrl` = URL of the website, `auto` for automatic detection  
 `CoreTimezone` = timezone of the website, [supported timezones](https://www.php.net/manual/en/timezones.php)  
 `CoreContentExtension` = file extension for content  
 `CoreContentDefaultFile` = content file for folders  
 `CoreContentErrorFile` = content file for error page  
-`CoreUserFile` = file with user settings  
 `CoreLanguageFile` = file with language settings  
+`CoreUserFile` = file with user settings  
 `CoreWebsiteFile` = log file of the website  
 `CoreMediaLocation` = location for media files  
 `CoreDownloadLocation` = location for downloads  

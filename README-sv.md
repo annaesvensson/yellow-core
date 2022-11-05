@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.99
+# Core 0.8.100
 
 Webbplatsens kärnfunktion.
 
@@ -78,14 +78,13 @@ Layoutfil för standardsidan:
 `Theme` = standardtema  
 `Parser` = standard innehållsparser  
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
-`CoreServerUrl` = URL av webbplatsen, när den används som webbpubliceringssystem  
-`CoreStaticUrl` = URL av webbplatsen, när den används som static-site-generator  
+`CoreServerUrl` = webbplatsens URL, `auto` för automatisk detektering  
 `CoreTimezone` = webbplatsens tidszon, [stödda tidszoner](https://www.php.net/manual/en/timezones.php)  
 `CoreContentExtension` = filformat för innehåll  
 `CoreContentDefaultFile` = innehållsfil för mappar  
 `CoreContentErrorFile` = innehållsfil för felsida  
-`CoreUserFile` = fil med användarinställningar  
 `CoreLanguageFile` = fil med språkinställningar  
+`CoreUserFile` = fil med användarinställningar  
 `CoreWebsiteFile` = loggfilen för webbplatsen  
 `CoreMediaLocation` = plats för mediafiler  
 `CoreDownloadLocation` = plats för nedladdningar  
