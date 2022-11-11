@@ -75,7 +75,7 @@ Layoutdatei für Standard-Seite:
 `Email` = E-Mail des Webmasters  
 `Language` = Standard-Sprache, z.B. `de`  
 `Layout` = Standard-Layout  
-`Theme` = Standard-Thema  
+`Theme` = Standard-Theme  
 `Parser` = Standard-Inhaltsparser  
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
@@ -91,7 +91,7 @@ Layoutdatei für Standard-Seite:
 `CoreImageLocation` = Ort für Bilder  
 `CoreThumbnailLocation` = Ort für Miniaturbilder  
 `CoreExtensionLocation` = Ort für virtuell zugeordnete Erweiterungsdateien  
-`CoreThemeLocation` = Ort für virtuell zugeordnete Themendateien  
+`CoreThemeLocation` = Ort für virtuell zugeordnete Themedateien  
 `CoreMultiLanguageMode` = Mehrsprachen-Modus aktivieren, 1 oder 0  
 `CoreDebugMode` = Debug-Modus aktivieren, 0 bis 3  
 
@@ -108,7 +108,7 @@ Layoutdatei für Standard-Seite:
 `Language` = Sprache der Seite, z.B. `de`  
 `Layout` = Layout der Seite  
 `LayoutNew` = Layout um eine neue Seite zu erzeugen  
-`Theme` = Thema der Seite  
+`Theme` = Theme der Seite  
 `Parser` = Inhaltsparser der Seite  
 `Status` = Status der Seite, [unterstützte Statuswerte](#einstellungen-status)  
 `Redirect` = Weiterleitung zu einer anderen Seite oder URL  
