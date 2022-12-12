@@ -6,6 +6,10 @@ Kernfunktionalität der Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
 Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man installierte Erweiterungen und Konfigurationsdateien.
@@ -140,10 +144,6 @@ Layoutdatei für Standard-Seite:
 `system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Pagination  
 
 Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-core/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

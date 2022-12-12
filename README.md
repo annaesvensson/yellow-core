@@ -6,6 +6,10 @@ Core functionality of the website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to edit a website on your computer
 
 You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find installed extensions and configuration files here.
@@ -140,10 +144,6 @@ Layout file for default page:
 `system/layouts/pagination.html` = layout file for default HTML pagination  
 
 The log file can be found in file `system/extensions/yellow-website.log`.
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 

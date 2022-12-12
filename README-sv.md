@@ -6,6 +6,10 @@ Webbplatsens kärnfunktion.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man redigerar en webbplats på datorn
 
 Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg och konfigurationsfilar här.
@@ -140,10 +144,6 @@ Layoutfil för standardsidan:
 `system/layouts/pagination.html` = layoutfil för standard HTML-paginering  
 
 Loggfilen finns i filen `system/extensions/yellow-website.log`.
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-core/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
