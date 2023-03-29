@@ -128,7 +128,7 @@ Layoutfil för standardsidan:
 
 `public` = sidan är en vanlig sida  
 `private` = sidan är inte synlig, användaren måste ange lösenord, [kräver private-tillägg](https://github.com/schulle4u/yellow-extensions-schulle4u/tree/main/private)  
-`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/annaesvensson/yellow-draft)  
+`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/annaesvensson/yellow-draft/tree/main/README-sv.md)  
 `unlisted` = sidan är inte synlig, men kan nås med rätt länk  
 `shared` = sidan är inte synlig, men kan ingå i andra sidor  
 
