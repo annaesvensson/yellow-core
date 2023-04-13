@@ -14,6 +14,10 @@ Core functionality of the website.
 
 You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find installed extensions and configuration files here.
 
+## How to use the command line on your computer
+
+You can execute commands at the command line. This allows you to build a static website and do other things. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed.
+
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
@@ -69,6 +73,20 @@ Layout file for default page:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
+
+Overview of available commands:
+
+`php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php build` = Build static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
+`php yellow.php check` = Check static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
+`php yellow.php clean` = Clean static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
+`php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
+`php yellow.php serve` = Start built-in web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
+`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
+`php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
 ## Settings
 
