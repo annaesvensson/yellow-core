@@ -16,7 +16,7 @@ Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verze
 
 ## Wie man die Befehlszeile benutzt
 
-Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit eine [statische Webseite](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md) zu erstellen und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
+Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit eine [statische Webseite](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md) zu erstellen und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
 
 Die folgenden Befehle sind verfügbar:
 
