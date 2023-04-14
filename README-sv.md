@@ -14,9 +14,23 @@ Webbplatsens kärnfunktion.
 
 Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefiler. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg och konfigurationsfilar här.
 
-## Hur man använder kommandoraden på datorn
+## Hur man använder kommandoraden
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att bygga en statisk webbplats och göra andra saker. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att bygga en [statisk webbplats](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md) och göra andra saker. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
+
+Följande kommandon är tillgängliga:
+
+`php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php build` = Bygg statisk webbplats, [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
+`php yellow.php check` = Kontrollera statisk webbplats, , [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
+`php yellow.php clean` = Rengör statisk webbplats, , [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
+`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
+`php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
+`php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
+`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 ## Hur man döljer en sida
 
@@ -73,20 +87,6 @@ Layoutfil för standardsidan:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
-
-Översikt över tillgängliga kommandon:
-
-`php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php build` = Bygg statisk webbplats, [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
-`php yellow.php check` = Kontrollera statisk webbplats, , [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
-`php yellow.php clean` = Rengör statisk webbplats, , [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
-`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
-`php yellow.php serve` = Starta inbyggda webbservern, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
-`php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
-`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 ## Inställningar
 
