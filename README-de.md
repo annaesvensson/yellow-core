@@ -16,7 +16,7 @@ Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verze
 
 ## Wie man die Befehlszeile benutzt
 
-Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit eine [statische Webseite](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md) zu erstellen und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
+Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md), [eine statische Webseite zu erstellen](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md) und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
 
 Die folgenden Befehle sind verfügbar:
 
@@ -159,7 +159,7 @@ Layoutdatei für Standard-Seite:
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 `system/layouts/navigation.html` = Layoutdatei für Standard-HTML-Navigation  
-`system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Pagination  
+`system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Paginierung  
 
 Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
 
