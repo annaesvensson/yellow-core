@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.113
+# Core 0.8.114
 
 Core functionality of the website.
 
@@ -83,7 +83,7 @@ Layout file for default page:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getContent() ?>
+    <?php echo $this->yellow->page->getContentHtml() ?>
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
