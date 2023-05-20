@@ -12,7 +12,7 @@ Core functionality of the website.
 
 ## How to edit a website on your computer
 
-You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find installed extensions and configuration files here.
+You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find installed extensions, configuration files and the log file here. [Learn more about the API for developers](https://datenstrom.se/yellow/help/api-for-developers).
 
 ## How to use the command line
 
