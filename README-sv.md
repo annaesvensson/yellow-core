@@ -12,7 +12,7 @@ Webbplatsens kärnfunktion.
 
 ## Hur man redigerar en webbplats på datorn
 
-Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg, konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout).
+Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg, konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
 
 ## Hur man använder kommandoraden
 

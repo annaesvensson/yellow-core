@@ -12,7 +12,7 @@ Kernfunktionalität der Webseite.
 
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man installierte Erweiterungen, Konfigurationsdateien und die Logdatei. [Weitere Informationen zur API für Entwickler](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout).
+Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man installierte Erweiterungen, Konfigurationsdateien und die Logdatei. [Weitere Informationen zur API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
 
 ## Wie man die Befehlszeile benutzt
 
