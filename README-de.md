@@ -21,9 +21,9 @@ Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit 
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` = Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php check` = Statische Webseite überprüfen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php clean` = Statische Webseite löschen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php generate` = Statische Webseite generieren, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php check` = Statische Webseite überprüfen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md)  
+`php yellow.php clean` = Statische Webseite löschen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md)  
+`php yellow.php generate` = Statische Webseite generieren, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md)  
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md)  
 `php yellow.php serve` = Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
