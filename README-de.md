@@ -16,17 +16,17 @@ Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verze
 
 ## Wie man die Befehlszeile benutzt
 
-Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md), [eine statische Webseite zu erstellen](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md) und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
+Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md), [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-static/tree/main/README-de.md) und andere Dinge zu erledigen. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab.
 
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` = Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php build` = Statische Webseite erstellen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php check` = Statische Webseite überprüfen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php clean` = Statische Webseite löschen, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php generate` = Statische Webseite generieren, [erfordert Static-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md)  
-`php yellow.php serve` = Eingebauten Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
+`php yellow.php serve` = Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/annaesvensson/yellow-traffic/tree/main/README-de.md)  
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
@@ -139,7 +139,7 @@ Layoutdatei für Standard-Seite:
 `Modified` = Änderungsdatum der Seite, JJJJ-MM-TT Format  
 `Published` = Veröffentlichungsdatum der Seite, JJJJ-MM-TT Format  
 `Tag` = Tags zur Kategorisierung der Seite, durch Komma getrennt  
-`Build` = Optionen zum Erstellen einer statischen Webseite, durch Komma getrennt  
+`Generate` = Optionen zum Generieren einer statischen Webseite, durch Komma getrennt  
 `Comment` = Optionen zum Anzeigen von Kommentaren, durch Komma getrennt  
 
 <a id="einstellungen-status"></a>Die folgenden Seiten-Statuswerte werden unterstützt:
