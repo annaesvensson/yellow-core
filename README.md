@@ -16,14 +16,14 @@ You can change everything in the file manager on your computer. The `content` fo
 
 ## How to use the command line
 
-You can execute commands at the command line. This allows you to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-static) and do other things. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed.
+You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and [install extensions](https://github.com/annaesvensson/yellow-update). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed.
 
 The following commands are available:
 
 `php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php check` = Check static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
-`php yellow.php clean` = Clean static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
-`php yellow.php generate` = Generate static website, [requires static extension](https://github.com/annaesvensson/yellow-static)  
+`php yellow.php check` = Check static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
 `php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  

@@ -16,14 +16,14 @@ Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller w
 
 ## Hur man använder kommandoraden
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md) och göra andra saker. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md) och [installera tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md). Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona. De tillgängliga kommandona beror på installerade tillägg.
 
 Följande kommandon är tillgängliga:
 
 `php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php check` = Kontrollera statisk webbplats, [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
-`php yellow.php clean` = Rengör statisk webbplats, [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
-`php yellow.php generate` = Generera statisk webbplats, [kräver static-tillägg](https://github.com/annaesvensson/yellow-static/tree/main/README-sv.md)  
+`php yellow.php check` = Kontrollera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
+`php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
+`php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
 `php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
