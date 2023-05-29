@@ -21,7 +21,7 @@ You can execute commands at the command line. This allows you, for example, to [
 The following commands are available:
 
 `php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php check` = Check static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php check` = Find broken links, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  

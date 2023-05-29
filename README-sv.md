@@ -21,7 +21,7 @@ Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till ex
 Följande kommandon är tillgängliga:
 
 `php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php check` = Kontrollera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
+`php yellow.php check` = Hitta trasiga länkar, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
