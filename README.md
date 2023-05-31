@@ -21,7 +21,7 @@ You can execute commands at the command line. This allows you, for example, to [
 The following commands are available:
 
 `php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php check` = Find broken links, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php check` = Find broken links, [requires check extension](https://github.com/annaesvensson/yellow-check)  
 `php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
@@ -139,8 +139,8 @@ Layout file for default page:
 `Modified` = page modification date, YYYY-MM-DD format  
 `Published` = page publication date, YYYY-MM-DD format  
 `Tag` = page tag(s) for categorisation, comma separated  
-`Generate` = page option(s) for generating a static website, comma separated  
-`Comment` = page option(s) for showing comments, comma separated  
+`Generate` = option(s) for generating a static website, comma separated  
+`Comment` = option(s) for showing comments, comma separated  
 
 <a id="settings-status"></a>The following page status values are supported:
 

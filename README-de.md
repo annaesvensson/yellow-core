@@ -21,7 +21,7 @@ Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir beispielsweise di
 Die folgenden Befehle sind verfügbar:
 
 `php yellow.php about` = Erweiterungen anzeigen, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php check` = Defekte Links finden, [erfordert Generate-Erweiterung](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md)  
+`php yellow.php check` = Defekte Links finden, [erfordert Check-Erweiterung](https://github.com/annaesvensson/yellow-check/tree/main/README-de.md)  
 `php yellow.php clean` = Statische Webseite löschen, [erfordert Generate-Erweiterung](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md)  
 `php yellow.php generate` = Statische Webseite generieren, [erfordert Generate-Erweiterung](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md)  
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
