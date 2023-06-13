@@ -16,7 +16,7 @@ You can change everything in the file manager on your computer. The `content` fo
 
 ## How to use the command line
 
-You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and [find broken links](https://github.com/annaesvensson/yellow-check). Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands. The available commands depend on extensions installed.
+You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and [find broken links](https://github.com/annaesvensson/yellow-check). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
 
 The following commands are available:
 
