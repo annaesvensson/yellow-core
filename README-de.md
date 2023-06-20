@@ -2,7 +2,7 @@
 
 # Core 0.8.115
 
-Kernfunktionalität der Webseite.
+Kernfunktionalität deiner Webseite.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 

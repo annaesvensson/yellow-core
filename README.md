@@ -2,7 +2,7 @@
 
 # Core 0.8.115
 
-Core functionality of the website.
+Core functionality of your website.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Screenshot"></p>
 

@@ -2,7 +2,7 @@
 
 # Core 0.8.115
 
-Webbplatsens kärnfunktion.
+Kärnfunktionalitet på din webbplats.
 
 <p align="center"><img src="core-screenshot.png?raw=true" alt="Skärmdump"></p>
 
