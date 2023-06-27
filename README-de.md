@@ -163,6 +163,10 @@ Layoutdatei für Standard-Seite:
 
 Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
 
+## Danksagung
+
+Diese Erweiterung wurde zuvor betreut von Mark Seuffert und David Fehrmann. Danke für die gute Arbeit.
+
 ## Entwickler
 
-Mark Seuffert, David Fehrmann. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

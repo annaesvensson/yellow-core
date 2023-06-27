@@ -163,6 +163,10 @@ Layout file for default page:
 
 The log file can be found in file `system/extensions/yellow-website.log`.
 
+## Acknowledgements
+
+This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
+
 ## Developer
 
-Mark Seuffert, David Fehrmann. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).

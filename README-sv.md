@@ -163,6 +163,10 @@ Layoutfil för standardsidan:
 
 Loggfilen finns i filen `system/extensions/yellow-website.log`.
 
+## Tack
+
+Detta tillägg underhålls tidigare av Mark Seuffert och David Fehrmann. Tack för ett bra jobb.
+
 ## Utvecklare
 
-Mark Seuffert, David Fehrmann. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
