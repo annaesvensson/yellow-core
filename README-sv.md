@@ -32,6 +32,10 @@ Följande kommandon är tillgängliga:
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
+## Hur man lägger till en sida
+
+Lägg till en ny fil i `content`-mappen. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också.
+
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigation och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
@@ -42,7 +46,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man anpassar en sida
 
-Ställ `layout` i [sidinställningarna](#inställningar-page) högst upp på en sida. Alla layoutfiler finns i `system/layouts` mappen. HTML-koden för en sida kan du anpassa i layoutfilen. Ta en titt på layoutfilen för standardsidan och gör dina egna layoutfiler om det behövs. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout).
+Ställ `Layout` och `Theme` i [sidinställningarna](#inställningar-page) högst upp på en sida. HTML-koden för en sida kan du anpassa i layoutfilen. CSS-koden för en sida kan du anpassa i temafilen. Ta en titt på de befintliga filerna och anpassa dem. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout).
 
 ## Exempel
 
