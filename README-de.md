@@ -32,6 +32,10 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
 
+## Wie man eine Seite erstellt
+
+Erstelle eine neue Datei im `content`-Verzeichnis. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt.
+
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
@@ -42,7 +46,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man eine Seite anpasst
 
-Ganz oben auf einer Seite kannst du `Layout` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Schau dir die Layoutdatei für die Standard-Seite an und erstelle bei Bedarf deine eigenen Layoutdateien. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout).
+Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout).
 
 ## Beispiele
 
