@@ -32,6 +32,10 @@ The following commands are available:
 `php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
+## How to add a page
+
+Add a new file to the `content` folder. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported.
+
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
@@ -42,7 +46,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to customise a page 
 
-Set `Layout` in the [page settings](#settings-page) at the top of a page. All layout files are stored in your `system/layouts` folder. The HTML code of a page can be customised in the layout file. Have a look at the default layout file and make your own layout files when needed. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout).
+Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout).
 
 ## Examples
 
