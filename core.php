@@ -2,7 +2,7 @@
 // Core extension, https://github.com/annaesvensson/yellow-core
 
 class YellowCore {
-    const VERSION = "0.8.124";
+    const VERSION = "0.8.125";
     const RELEASE = "0.8.23";
     public $content;        // content files
     public $media;          // media files
@@ -1961,6 +1961,7 @@ class YellowToolbox {
             "jpg" => "image/jpeg",
             "md" => "text/markdown",
             "png" => "image/png",
+            "scss" => "text/x-scss",
             "svg" => "image/svg+xml",
             "txt" => "text/plain",
             "woff" => "application/font-woff",
