@@ -38,7 +38,7 @@ Erstelle eine neue Datei im `content`-Verzeichnis. Textformatierung mit [Markdow
 
 ## Wie man eine Seite versteckt
 
-Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation und den Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
+Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation, der Sitemap und Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
 
 ## Wie man eine Seite weiterleitet
 
@@ -63,7 +63,7 @@ Inhaltsdatei mit ungelisteter Seite:
     Title: Ungelistete Seite
     Status: unlisted
     ---
-    Diese Seite ist in der Navigation und den Suchergebnissen nicht sichtbar.
+    Diese Seite ist in der Navigation, der Sitemap und Suchergebnissen nicht sichtbar.
 
 Inhaltsdatei mit Weiterleitung:
 

@@ -38,7 +38,7 @@ Add a new file to the `content` folder. Text formatting with [Markdown](https://
 
 ## How to hide a page
 
-Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
+Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation, sitemap and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
 
 ## How to redirect a page
 
@@ -63,7 +63,7 @@ Content file with unlisted page:
     Title: Unlisted page
     Status: unlisted
     ---
-    This page is not visible in navigation and search results.
+    This page is not visible in navigation, sitemap and search results.
 
 Content file with redirection:
 

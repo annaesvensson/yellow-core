@@ -38,7 +38,7 @@ Lägg till en ny fil i `content`-mappen. Textformatering med [Markdown](https://
 
 ## Hur man döljer en sida
 
-Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigation och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
+Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigationen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
 
 ## Hur man omdirigerar en sida
 
@@ -63,7 +63,7 @@ Innehållsfil med olistad sida:
     Title: Olistad sida
     Status: unlisted
     ---
-    Den här sidan är inte synlig i navigation och sökresultat.
+    Den här sidan är inte synlig i navigation, webbplatskarta och sökresultat.
 
 Innehållsfil med omdirigering:
 
