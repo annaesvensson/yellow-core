@@ -8,7 +8,7 @@ Core functionality of your website.
 
 ## How to install an extension
 
-[Download ZIP file](https://github.com/annaesvensson/yellow-core/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download ZIP file](https://github.com/annaesvensson/yellow-core/archive/refs/heads/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to edit a website on your computer
 
