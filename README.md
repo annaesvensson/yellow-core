@@ -14,6 +14,8 @@ Core functionality of your website.
 
 You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find installed extensions, configuration files and the log file here. [Learn more about the API for developers](https://datenstrom.se/yellow/help/api-for-developers).
 
+You can use your favorite text editor. This is convenient for developers, designers and translators. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
+
 ## How to use the command line
 
 You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and [find broken links](https://github.com/annaesvensson/yellow-check). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
@@ -34,7 +36,7 @@ The following commands are available:
 
 ## How to add a page
 
-Add a new file to the `content` folder. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported.
+Add a new file to the `content` folder.
 
 ## How to remove a page
 

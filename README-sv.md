@@ -14,6 +14,8 @@ Kärnfunktionalitet på din webbplats.
 
 Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg, konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
 
+Du kan använda din favorit-textredigerare. Detta är praktiskt för utvecklare, designers och översättare. Öppna filen `content/1-home/page.md`. Högst upp på sidan kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+
 ## Hur man använder kommandoraden
 
 Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md) och [hitta trasiga länkar](https://github.com/annaesvensson/yellow-check/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
@@ -34,7 +36,7 @@ Följande kommandon är tillgängliga:
 
 ## Hur man lägger till en sida
 
-Lägg till en ny fil i `content`-mappen. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också.
+Lägg till en ny fil i `content`-mappen.
 
 ## Hur man tar bort en sida
 
