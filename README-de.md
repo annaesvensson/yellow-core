@@ -36,6 +36,10 @@ Die folgenden Befehle sind verfügbar:
 
 Erstelle eine neue Datei im `content`-Verzeichnis. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt.
 
+## Wie man eine Seite löscht
+
+Lösche die Datei aus dem `content`-Verzeichnis.
+
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation, der Sitemap und Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.

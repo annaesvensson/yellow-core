@@ -36,6 +36,10 @@ The following commands are available:
 
 Add a new file to the `content` folder. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported.
 
+## How to remove a page
+
+Remove the file from the `content` folder.
+
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation, sitemap and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.

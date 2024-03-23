@@ -36,6 +36,10 @@ Följande kommandon är tillgängliga:
 
 Lägg till en ny fil i `content`-mappen. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också.
 
+## Hur man tar bort en sida
+
+Ta bort filen från `content`-mappen.
+
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigationen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
