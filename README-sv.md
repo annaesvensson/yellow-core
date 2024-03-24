@@ -14,7 +14,7 @@ Kärnfunktionalitet på din webbplats.
 
 Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg, konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
 
-Du kan använda din favorit-textredigerare. Detta är praktiskt för utvecklare, designers och översättare. Öppna filen `content/1-home/page.md`. Högst upp på sidan kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Du kan redigera din webbplats i din favorit-textredigerare. Öppna filen `content/1-home/page.md`. Högst upp på sidan kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man använder kommandoraden
 
