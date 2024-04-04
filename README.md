@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.8.133
+# Core 0.9.1
 
 Core functionality of your website.
 
@@ -117,13 +117,13 @@ Layout file for default page:
 `CoreContentErrorFile` = content file for error page  
 `CoreLanguageFile` = file with language settings  
 `CoreUserFile` = file with user settings  
+`CoreExtensionFile` = file with extension settings  
 `CoreWebsiteFile` = log file of the website  
 `CoreMediaLocation` = location for media files  
 `CoreDownloadLocation` = location for downloads  
 `CoreImageLocation` = location for images  
 `CoreThumbnailLocation` = location for thumbnails  
 `CoreExtensionLocation` = location for virtually mapped extension files  
-`CoreThemeLocation` = location for virtually mapped theme files  
 `CoreMultiLanguageMode` = enable multi language mode, 1 or 0  
 `CoreDebugMode` = enable debug mode, 0 to 3  
 
