@@ -12,7 +12,7 @@ Kärnfunktionalitet på din webbplats.
 
 ## Hur man redigerar en webbplats på datorn
 
-Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta installerade tillägg, konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
+Du kan ändra allt i filhanteraren på din dator. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar och loggfilen här. [Läs mer om API:et för utvecklare](https://datenstrom.se/sv/yellow/help/api-for-developers).
 
 Du kan redigera din webbplats i din favorit-textredigerare. Öppna filen `content/1-home/page.md`. Högst upp på sidan kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
@@ -170,8 +170,6 @@ Layoutfil för standardsidan:
 `system/layouts/footer.html` = layoutfil för standard HTML-footer  
 `system/layouts/navigation.html` = layoutfil för standard HTML-navigering  
 `system/layouts/pagination.html` = layoutfil för standard HTML-paginering  
-
-Loggfilen finns i filen `system/extensions/yellow-website.log`.
 
 ## Tack
 

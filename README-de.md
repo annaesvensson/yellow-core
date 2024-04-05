@@ -12,7 +12,7 @@ Kernfunktionalität deiner Webseite.
 
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man installierte Erweiterungen, Konfigurationsdateien und die Logdatei. [Weitere Informationen zur API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
+Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man Konfigurationsdateien und die Logdatei. [Weitere Informationen zur API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
 
 Du kannst deine Webseite in deinen Lieblings-Texteditor bearbeiten. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
@@ -170,8 +170,6 @@ Layoutdatei für Standard-Seite:
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 `system/layouts/navigation.html` = Layoutdatei für Standard-HTML-Navigation  
 `system/layouts/pagination.html` = Layoutdatei für Standard-HTML-Paginierung  
-
-Die Logdatei findet man in der Datei `system/extensions/yellow-website.log`.
 
 ## Danksagung
 
