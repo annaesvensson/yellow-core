@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.3
+# Core 0.9.4
 
 Core functionality of your website.
 
@@ -52,7 +52,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to customise a page 
 
-Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout).
+Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.3
+# Core 0.9.4
 
 Kernfunktionalität deiner Webseite.
 
@@ -52,7 +52,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man eine Seite anpasst
 
-Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout).
+Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 
