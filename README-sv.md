@@ -112,7 +112,7 @@ Layoutfil för standardsidan:
 `Status` = standard sidstatus, [stödda statusvärden](#inställningar-status)  
 `CoreServerUrl` = webbplatsens URL, `auto` för automatisk detektering  
 `CoreTimezone` = webbplatsens tidszon, [stödda tidszoner](https://www.php.net/manual/en/timezones.php)  
-`CoreContentExtension` = filformat för innehåll  
+`CoreContentExtension` = filändele för innehåll  
 `CoreContentDefaultFile` = innehållsfil för mappar  
 `CoreContentErrorFile` = innehållsfil för felsida  
 `CoreLanguageFile` = fil med språkinställningar  

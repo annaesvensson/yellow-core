@@ -112,7 +112,7 @@ Layoutdatei für Standard-Seite:
 `Status` = Standard-Seitenstatus, [unterstützte Statuswerte](#einstellungen-status)  
 `CoreServerUrl` = URL der Webseite, `auto` für automatische Erkennung  
 `CoreTimezone` = Zeitzone der Webseite, [unterstützte Zeitzonen](https://www.php.net/manual/de/timezones.php)  
-`CoreContentExtension` = Dateiformat für den Inhalt  
+`CoreContentExtension` = Dateiendung für den Inhalt  
 `CoreContentDefaultFile` = Inhaltsdatei für Verzeichnisse  
 `CoreContentErrorFile` =  Inhaltsdatei für Fehlerseite  
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
