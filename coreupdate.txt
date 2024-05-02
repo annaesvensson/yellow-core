@@ -81,6 +81,7 @@ class YellowCore {
             if (flock($fileHandle, LOCK_EX)) {
                 ftruncate($fileHandle, 0);
                 fwrite($fileHandle, $fileData);
+                fflush($fileHandle);
                 flock($fileHandle, LOCK_UN);
             }
             fclose($fileHandle);
