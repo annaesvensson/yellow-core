@@ -15,7 +15,7 @@ class YellowCore {
     
     // Handle request from web browser
     public function request() {
-        $statusCode = $this->processCoreUpdate();
+        $statusCode = $this->processCorePatch();
         if ($statusCode==303) {
             header("HTTP/1.0 303 Reload please");
             header("Location: ".$_SERVER["REQUEST_URI"]);
@@ -26,15 +26,15 @@ class YellowCore {
     
     // Handle command from command line
     public function command($line = "") {
-        $statusCode = $this->processCoreUpdate();
+        $statusCode = $this->processCorePatch();
         if ($statusCode==303) {
             echo "Yellow flux capacitor has reached 1.21 gigawatts. Please run command again.\n";
         }
         return $statusCode<400 ? 0 : 1;
     }
     
-    // Update core for new release
-    public function processCoreUpdate() {
+    // Process core patch for new release
+    public function processCorePatch() {
         $statusCode = 303;
         if (is_file("system/extensions/core.php") && is_file("system/workers/core.php")) {
             $fileName = "yellow.php";
