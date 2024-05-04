@@ -4,7 +4,7 @@
 // Please note that the latest core can be found in file "system/workers/core.php"
     
 class YellowCore {
-    const VERSION = "0.8.134";
+    const VERSION = "0.8.133";
     const RELEASE = "0.8.23";
     
     // Handle initialisation
