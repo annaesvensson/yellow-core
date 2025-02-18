@@ -16,24 +16,6 @@ You can change everything in the file manager on your computer. The `content` fo
 
 You can edit your website in your favorite text editor. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
-## How to use the command line
-
-You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve) and [generate a static website](https://github.com/annaesvensson/yellow-generate). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
-
-The following commands are available:
-
-`php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php check` = Find broken links, [requires check extension](https://github.com/annaesvensson/yellow-check)  
-`php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
-`php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
-`php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
-`php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
-`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
-`php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
-
 ## How to add a page
 
 Add a new file to the `content` folder.
@@ -53,6 +35,24 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 ## How to customise a page 
 
 Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+
+## How to use the command line
+
+You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve) and [generate a static website](https://github.com/annaesvensson/yellow-generate). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
+
+The following commands are available:
+
+`php yellow.php about` = Show extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php check` = Find broken links, [requires check extension](https://github.com/annaesvensson/yellow-check)  
+`php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
+`php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
+`php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
+`php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
+`php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
 ## Examples
 
