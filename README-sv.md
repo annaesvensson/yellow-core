@@ -14,7 +14,7 @@ Kärnfunktionalitet på din webbplats.
 
 Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar här.
 
-Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man anpassar en webbplats med HTML/CSS
 
