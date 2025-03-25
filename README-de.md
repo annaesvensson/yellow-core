@@ -16,6 +16,10 @@ Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis ent
 
 Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
+## Wie man HTML/CSS anpasst
+
+Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+
 ## Wie man eine Seite erstellt
 
 Erstelle eine neue Datei im `content`-Verzeichnis.
@@ -49,10 +53,6 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
-
-## Wie man HTML/CSS anpasst
-
-Du kannst den HTML-Code deiner Webseite mit einem Layout anpassen. Du kannst den CSS-Code deiner Webseite mit einem Theme anpassen. Alle Themedateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 

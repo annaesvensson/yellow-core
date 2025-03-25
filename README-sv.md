@@ -16,6 +16,10 @@ Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller we
 
 Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
+## Hur man anpassar HTML/CSS
+
+Du kan anpassa utseendet på din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
+
 ## Hur man lägger till en sida
 
 Lägg till en ny fil i `content`-mappen.
@@ -49,10 +53,6 @@ Följande kommandon är tillgängliga:
 `php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
-
-## Hur man anpassar HTML/CSS
-
-Du kan anpassa HTML-koden på din webbplats med en layout. Du kan anpassa CSS-koden på din webbplats med ett tema. Alla temafiler finns i `system/themes` mappen. Alla layoutfiler finns i `system/layouts` mappen. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
 ## Exempel
 
