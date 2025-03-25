@@ -32,10 +32,6 @@ Set `Status: unlisted` in the [page settings](#settings-page) at the top of a pa
 
 Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
-## How to customise a page 
-
-Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
-
 ## How to use the command line
 
 You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve) and [generate a static website](https://github.com/annaesvensson/yellow-generate). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
@@ -53,6 +49,10 @@ The following commands are available:
 `php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
+
+## How to customise HTML/CSS
+
+Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 

@@ -32,10 +32,6 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md) och på din dator. 
 
-## Hur man anpassar en sida
-
-Ställ `Layout` och `Theme` i [sidinställningarna](#inställningar-page) högst upp på en sida. HTML-koden för en sida kan du anpassa i layoutfilen. CSS-koden för en sida kan du anpassa i temafilen. Ta en titt på de befintliga filerna och anpassa dem. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
-
 ## Hur man använder kommandoraden
 
 Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
@@ -53,6 +49,10 @@ Följande kommandon är tillgängliga:
 `php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
+
+## Hur man anpassar HTML/CSS
+
+Ställ `Layout` och `Theme` i [sidinställningarna](#inställningar-page) högst upp på en sida. HTML-koden för en sida kan du anpassa i layoutfilen. CSS-koden för en sida kan du anpassa i temafilen. Ta en titt på de befintliga filerna och anpassa dem. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
 ## Exempel
 

@@ -32,10 +32,6 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellung
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) und auf deinem Computer bearbeiten.
 
-## Wie man eine Seite anpasst
-
-Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
-
 ## Wie man die Befehlszeile benutzt
 
 Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir beispielsweise die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md) und [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md). Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen.
@@ -53,6 +49,10 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
+
+## Wie man HTML/CSS anpasst
+
+Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 
