@@ -12,7 +12,7 @@ Kärnfunktionalitet på din webbplats.
 
 ## Hur man redigerar en webbplats på datorn
 
-Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar och loggfilen här.
+Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar här.
 
 Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
@@ -52,7 +52,7 @@ Följande kommandon är tillgängliga:
 
 ## Hur man anpassar HTML/CSS
 
-Du kan anpassa HTML-koden på din webbplats med en layout. Du kan anpassa CSS-koden på din webbplats med ett tema. Alla temafiler finns i `system/themes` mappen. Alla layoutfiler finns i `system/layouts` mappen. Du kan redigera dessa filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
+Du kan anpassa HTML-koden på din webbplats med en layout. Du kan anpassa CSS-koden på din webbplats med ett tema. Alla temafiler finns i `system/themes` mappen. Alla layoutfiler finns i `system/layouts` mappen. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
 ## Exempel
 

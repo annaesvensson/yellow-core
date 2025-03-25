@@ -12,7 +12,7 @@ Core functionality of your website.
 
 ## How to edit a website on your computer
 
-You can edit your website in a text editor. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files and the log file here.
+You can edit your website in a text editor. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files here.
 
 At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
@@ -52,7 +52,7 @@ The following commands are available:
 
 ## How to customise HTML/CSS
 
-You can customise the HTML code of your website with a layout. You can customise the CSS code of your website with a theme. All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts folder`. You can edit these files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+You can customise the HTML code of your website with a layout. You can customise the CSS code of your website with a theme. All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts` folder. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 
