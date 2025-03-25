@@ -16,17 +16,9 @@ Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller we
 
 Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Textformatering med [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-sv.md) stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
-## Hur man anpassar HTML/CSS
+## Hur man anpassar en webbplats med HTML/CSS
 
 Du kan anpassa utseendet på din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill, dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
-
-## Hur man lägger till en sida
-
-Lägg till en ny fil i `content`-mappen.
-
-## Hur man tar bort en sida
-
-Ta bort filen från `content`-mappen.
 
 ## Hur man döljer en sida
 

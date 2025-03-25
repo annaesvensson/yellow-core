@@ -16,17 +16,9 @@ You can edit your website in a text editor. The `content` folder contains the co
 
 At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
-## How to customise HTML/CSS
+## How to customise a website with HTML/CSS
 
 You can customise the appearance of your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like, your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
-
-## How to add a page
-
-Add a new file to the `content` folder.
-
-## How to remove a page
-
-Remove the file from the `content` folder.
 
 ## How to hide a page
 
