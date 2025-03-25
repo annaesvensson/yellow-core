@@ -12,9 +12,9 @@ Core functionality of your website.
 
 ## How to edit a website on your computer
 
-You can change everything in the file manager on your computer. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files and the log file here. [Learn more about the API for developers](https://datenstrom.se/yellow/help/api-for-developers).
+You can edit your website in a text editor. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files and the log file here.
 
-You can edit your website in your favorite text editor. Open the file `content/1-home/page.md`. At the top of the page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
+At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. Text formatting with [Markdown](https://github.com/annaesvensson/yellow-markdown) is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
 ## How to add a page
 
@@ -52,7 +52,7 @@ The following commands are available:
 
 ## How to customise HTML/CSS
 
-Set `Layout` and `Theme` in the [page settings](#settings-page) at the top of a page. The HTML code of a page can be customised in the layout file. The CSS code of a page can be customised in the theme file. Have a look at the existing files and customise them. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+You can customise the HTML code of your website with a layout. You can customise the CSS code of your website with a theme. All theme files are stored in your `system/themes` folder. All layout files are stored in your `system/layouts folder`. You can edit these files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 

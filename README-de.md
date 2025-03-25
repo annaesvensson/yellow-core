@@ -12,9 +12,9 @@ Kernfunktionalität deiner Webseite.
 
 ## Wie man eine Webseite auf dem Computer bearbeitet
 
-Du kannst alles im Dateimanager auf deinem Computer ändern. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man Konfigurationsdateien und die Logdatei. [Weitere Informationen zur API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
+Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man Konfigurationsdateien und die Logdatei.
 
-Du kannst deine Webseite in deinen Lieblings-Texteditor bearbeiten. Öffne die Datei `content/1-home/page.md`. Ganz oben auf der Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Textformatierung mit [Markdown](https://github.com/annaesvensson/yellow-markdown/tree/main/README-de.md) wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
 ## Wie man eine Seite erstellt
 
@@ -52,7 +52,7 @@ Die folgenden Befehle sind verfügbar:
 
 ## Wie man HTML/CSS anpasst
 
-Ganz oben auf einer Seite kannst du `Layout` und `Theme` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Den HTML-Code einer Seite kannst du in der Layoutdatei anpassen. Den CSS-Code einer Seite kannst du in der Themedatei anpassen. Schau dir die vorhandenen Dateien an und passe sie an. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+Du kannst den HTML-Code deiner Webseite mit einem Layout anpassen. Du kannst den CSS-Code deiner Webseite mit einem Theme anpassen. Alle Themedateien befinden sich im `system/themes`-Verzeichnis. Alle Layoutdateien befinden sich im `system/layouts`-Verzeichnis. Du kannst diese Dateien bearbeiten. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 
