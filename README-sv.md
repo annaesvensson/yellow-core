@@ -14,7 +14,7 @@ Kärnfunktionalitet på din webbplats.
 
 Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar här.
 
-Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Om du vill att ett annat namn ska visas i navigeringen, använd `TitleNavigation` med ett kort namn. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Om du vill att ett annat namn ska visas i navigeringen, använd `TitleNavigation` med ett kort namn för navigeringen. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
 ## Hur man anpassar en webbplats med HTML/CSS
 
@@ -22,7 +22,7 @@ Du kan anpassa utseendet på din webbplats med HTML och CSS. Alla HTML-filer fin
 
 ## Hur man döljer en sida
 
-Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigationen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
+Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigeringen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
 
 ## Hur man omdirigerar en sida
 
@@ -55,13 +55,29 @@ Innehållsfil med normal sida:
     ---
     Detta är en exempelsida.
 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Innehållsfil med kort namn:
+
+    ---
+    Title: Exempelsida
+    TitleNavigation: Exempel
+    ---
+    Detta är en exempelsida med ett kort namn för navigeringen.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
 Innehållsfil med olistad sida:
 
     ---
     Title: Olistad sida
     Status: unlisted
     ---
-    Den här sidan är inte synlig i navigation, webbplatskarta och sökresultat.
+    Den här sidan är inte synlig i navigeringen, webbplatskarta och sökresultat.
 
 Innehållsfil med omdirigering:
 

@@ -14,7 +14,7 @@ Kernfunktionalität deiner Webseite.
 
 Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man Konfigurationsdateien.
 
-Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzem Titel. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
 ## Wie man eine Webseite mit HTML/CSS anpasst
 
@@ -54,6 +54,22 @@ Inhaltsdatei mit normaler Seite:
     Title: Normale Seite
     ---
     Das ist eine Beispielseite.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Inhaltsdatei mit kurzem Titel:
+
+    ---
+    Title: Beispielseite
+    TitleNavigation: Beispiel
+    ---
+    Das ist eine Beispielseite mit einem kurzen Titel für die Navigation.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 Inhaltsdatei mit ungelisteter Seite:
 

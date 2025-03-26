@@ -14,7 +14,7 @@ Core functionality of your website.
 
 You can edit your website in a text editor. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files here.
 
-At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. If you want that a different page title is shown in the navigation, use `TitleNavigation` with a short title. Text formatting with Markdown is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
+At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. If you want that a different page title is shown in the navigation, use `TitleNavigation` with a short title for the navigation. Text formatting with Markdown is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
 ## How to customise a website with HTML/CSS
 
@@ -54,6 +54,23 @@ Content file with normal page:
     Title: Normal page
     ---
     This is an example page.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+Content file with short title:
+
+    ---
+    Title: Example page
+    TitleNavigation: Example
+    ---
+    This is an example page with a short title for the navigation.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
 
 Content file with unlisted page:
 
