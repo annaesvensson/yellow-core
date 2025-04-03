@@ -30,7 +30,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man använder kommandoraden
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md) och [uppdatera en webbplats](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
 
 Följande kommandon är tillgängliga:
 

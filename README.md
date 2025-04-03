@@ -30,7 +30,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to use the command line
 
-You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve) and [generate a static website](https://github.com/annaesvensson/yellow-generate). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
+You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and [update a website](https://github.com/annaesvensson/yellow-update). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
 
 The following commands are available:
 
