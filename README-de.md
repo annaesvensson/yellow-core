@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.15
+# Core 0.9.16
 
 Kernfunktionalität deiner Webseite.
 
@@ -125,7 +125,6 @@ Layoutdatei für Standard-Seite:
 `CoreContentErrorFile` =  Inhaltsdatei für Fehlerseite  
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
 `CoreUserFile` = Datei mit Benutzereinstellungen  
-`CoreExtensionFile` = Datei mit Erweiterungseinstellungen  
 `CoreWebsiteFile` = Logdatei der Webseite  
 `CoreAssetLocation` = Ort für virtuell zugeordnete Systemdateien  
 `CoreMediaLocation` = Ort für Mediendateien  

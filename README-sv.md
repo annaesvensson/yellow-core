@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.15
+# Core 0.9.16
 
 Kärnfunktionalitet på din webbplats.
 
@@ -125,7 +125,6 @@ Layoutfil för standardsidan:
 `CoreContentErrorFile` = innehållsfil för felsida  
 `CoreLanguageFile` = fil med språkinställningar  
 `CoreUserFile` = fil med användarinställningar  
-`CoreExtensionFile` = fil med tilläggsinställningar  
 `CoreWebsiteFile` = loggfilen för webbplatsen  
 `CoreAssetLocation` = plats för virtuellt mappade systemfiler  
 `CoreMediaLocation` = plats för mediafiler  
