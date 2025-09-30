@@ -18,7 +18,7 @@ Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#ei
 
 ## Wie man eine Webseite mit HTML/CSS anpasst
 
-Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen CSS-Klassen hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Wie man eine Seite versteckt
 

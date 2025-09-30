@@ -18,7 +18,7 @@ At the top of a page you can change `Title` and other [page settings](#settings-
 
 ## How to customise a website with HTML/CSS
 
-You can customise the appearance of your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own CSS classes. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+You can customise the appearance of your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## How to hide a page
 
