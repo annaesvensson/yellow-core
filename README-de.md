@@ -16,9 +16,11 @@ Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis ent
 
 Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
-## Wie man eine Webseite mit HTML/CSS anpasst
+## Wie man eine Webseite anpasst
 
 Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+
+Du kannst das Aussehen deiner Webseite mit Erweiterungen anpassen. Eine Webseite besteht aus dem Core und anderen Erweiterungen. Die Standardinstallation enthält nur die wichtigsten Dinge für kleine Webseiten. Du kannst später weitere Funktionen hinzufügen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md).
 
 ## Wie man eine Seite versteckt
 
