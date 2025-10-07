@@ -20,7 +20,7 @@ Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#ei
 
 Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
-Du kannst das Aussehen deiner Webseite mit Erweiterungen anpassen. Eine Webseite besteht aus dem Core und anderen Erweiterungen. Die Standardinstallation enthält nur die wichtigsten Dinge für kleine Webseiten. Du kannst später weitere Funktionen hinzufügen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md).
+Du kannst das Aussehen deiner Webseite mit Erweiterungen anpassen. Die Standardinstallation enthält nur die wichtigsten Dinge für kleine Webseiten. Du kannst später weitere Funktionen hinzufügen. Das gibt dir die Möglichkeit nahezu jeden Aspekt deiner Webseite individuell anzupassen, zum Beispiel um zusätzlichen Funktionen, Sprachen und Themes hinzuzufügen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md).
 
 ## Wie man eine Seite versteckt
 
