@@ -22,7 +22,7 @@ You can customise the appearance of your website with HTML and CSS. All HTML fil
 
 You can customise the appearance of your website with extensions. This allows you to customise nearly every aspect of the system. The idea is that the standard installation includes the most important things for small websites. You can add more features later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update) and [making extensions](https://github.com/annaesvensson/yellow-publish).
 
-# How to update a website
+## How to update a website
 
 You can update your website in a web browser or at the command line. You can find information about the latest [product changes and extensions](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 

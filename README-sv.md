@@ -24,7 +24,7 @@ Du kan anpassa utseendet på din webbplats med tillägg. Detta ger dig möjlighe
 
 ## Hur man uppdaterar en webbplats
 
-Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du hittar information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Hur man döljer en sida
 
