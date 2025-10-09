@@ -22,6 +22,10 @@ Du kan anpassa utseendet på din webbplats med HTML och CSS. Alla HTML-filer fin
 
 Du kan anpassa utseendet på din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av systemet. Tanken är att standardinstallationen innehåller de viktigaste sakerna för små webbplatser. Du kan lägga till fler funktioner senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md) och [att göra tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md).
 
+## Hur man uppdaterar en webbplats
+
+Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du hittar information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigeringen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
@@ -45,7 +49,7 @@ Följande kommandon är tillgängliga:
 `php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
 `php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
 `php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php update` = Uppdatera webbplats, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php update` = Uppdatera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 ## Exempel

@@ -22,6 +22,10 @@ You can customise the appearance of your website with HTML and CSS. All HTML fil
 
 You can customise the appearance of your website with extensions. This allows you to customise nearly every aspect of the system. The idea is that the standard installation includes the most important things for small websites. You can add more features later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update) and [making extensions](https://github.com/annaesvensson/yellow-publish).
 
+# How to update a website
+
+You can update your website in a web browser or at the command line. You can find information about the latest [product changes and extensions](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation, sitemap and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
@@ -45,7 +49,7 @@ The following commands are available:
 `php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
 `php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php update` = Update website, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php update` = Update extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php user` = Create user accounts, [requires edit extension](https://github.com/annaesvensson/yellow-edit)  
 
 ## Examples

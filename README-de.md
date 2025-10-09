@@ -22,6 +22,10 @@ Du kannst das Aussehen deiner Webseite mit HTML und CSS anpassen. Alle HTML-Date
 
 Du kannst das Aussehen deiner Webseite mit Erweiterungen anpassen. Das gibt dir die Möglichkeit nahezu jeden Aspekt des Systems individuell anzupassen. Die Idee dahinter ist, dass die Standardinstallation die wichtigsten Dinge für kleine Webseiten beinhaltet. Du kannst später weitere Funktionen hinzufügen. Wir verwenden überall die gleiche API, von Layoutdateien bis zu Erweiterungen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/README-de.md).
 
+## Wie man eine Webseite aktualisiert
+
+Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über die neusten [Produktänderungen und Erweiterungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur verfügbare Erweiterungen aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation, der Sitemap und Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
@@ -45,7 +49,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php serve` = Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/annaesvensson/yellow-traffic/tree/main/README-de.md)  
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
-`php yellow.php update` = Webseite aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
+`php yellow.php update` = Erweiterungen aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md)  
 `php yellow.php user` = Benutzerkonten erstellen, [erfordert Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
 
 ## Beispiele
