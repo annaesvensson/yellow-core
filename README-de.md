@@ -32,7 +32,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man die Befehlszeile benutzt
 
-Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir beispielsweise die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md), [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md) und [eine Webseite zu aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md). Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen.
+Du kannst Befehle in der Befehlszeile ausführen. Das gibt dir beispielsweise die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/README-de.md) und [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-generate/tree/main/README-de.md). Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen.
 
 Die folgenden Befehle sind verfügbar:
 
