@@ -45,6 +45,7 @@ The following commands are available:
 `php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
+`php yellow.php log` = Show log file, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
 `php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
@@ -184,6 +185,13 @@ Layout file for default page:
 `system/layouts/footer.html` = layout file for default HTML footer  
 `system/layouts/navigation.html` = layout file for default HTML navigation  
 `system/layouts/pagination.html` = layout file for default HTML pagination  
+
+The following files are important for the functionality of the website:
+
+`system/extensions/yellow-system.ini` = file with system settings  
+`system/extensions/yellow-language.ini` = file with language settings  
+`system/extensions/yellow-user.ini` = file with user settings  
+`system/extensions/yellow-website.log` = log file of the website  
 
 ## Acknowledgements
 

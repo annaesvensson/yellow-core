@@ -45,6 +45,7 @@ Följande kommandon är tillgängliga:
 `php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
+`php yellow.php log` = Visa loggfil, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
 `php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
 `php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
@@ -131,7 +132,7 @@ Layoutfil för standardsidan:
 `CoreContentErrorFile` = innehållsfil för felsida  
 `CoreLanguageFile` = fil med språkinställningar  
 `CoreUserFile` = fil med användarinställningar  
-`CoreWebsiteFile` = loggfilen för webbplatsen  
+`CoreWebsiteFile` = webbplatsens loggfil  
 `CoreAssetLocation` = plats för virtuellt mappade systemfiler  
 `CoreMediaLocation` = plats för mediafiler  
 `CoreDownloadLocation` = plats för nedladdningar  
@@ -183,6 +184,13 @@ Layoutfil för standardsidan:
 `system/layouts/footer.html` = layoutfil för standard HTML-footer  
 `system/layouts/navigation.html` = layoutfil för standard HTML-navigering  
 `system/layouts/pagination.html` = layoutfil för standard HTML-paginering  
+
+Följande filer är viktiga för webbplatsens funktion:
+
+`system/extensions/yellow-system.ini` = fil med systeminställningar  
+`system/extensions/yellow-language.ini` = fil med språkinställningar  
+`system/extensions/yellow-user.ini` = fil med användarinställningar  
+`system/extensions/yellow-website.log` = webbplatsens loggfil  
 
 ## Tack
 
