@@ -34,6 +34,10 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md) och på din dator. 
 
+## Hur man visar en egen felsida
+
+Det är ganska enkelt. Om filer saknas visas en felsida automatiskt. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+
 ## Hur man använder kommandoraden
 
 Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
