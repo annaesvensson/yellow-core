@@ -107,7 +107,7 @@ Innehållsfil för felsidan:
     Title: Filen hittades inte
     Layout: error
     ---
-    Den begärda filen kunde inte hittas. Å nej...
+    Den begärda filen kunde inte hittas. Å nej…
 
 Layoutfil för standardsidan:
 

@@ -106,7 +106,7 @@ Inhaltsdatei für Fehlerseite:
     Title: Datei nicht gefunden
     Layout: error
     ---
-    Die angeforderte Datei wurde nicht gefunden. Oh nein...
+    Die angeforderte Datei wurde nicht gefunden. Oh nein …
 
 Layoutdatei für Standard-Seite:
 
