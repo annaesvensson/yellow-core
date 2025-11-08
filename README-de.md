@@ -14,9 +14,11 @@ Kernfunktionalität deiner Webseite.
 
 Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis enthält die Inhaltsdateien der Webseite. Hier bearbeitet man seine Webseite. Das `media`-Verzeichnis enthält die Mediendateien der Webseite. Hier speichert man seine Bilder und Dateien. Das `system`-Verzeichnis enthält die Systemdateien der Webseite. Hier findet man Konfigurationsdateien.
 
-Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
+Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content) und [Mediendateien](https://datenstrom.se/de/yellow/help/how-to-change-the-media).
 
 ## Wie man eine Webseite anpasst
+
+Du kannst deine Webseite in den [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen der Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Individuelle Einstellungen können ganz oben auf einer Seite vorgenommen werden. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
 Du kannst deine Webseite mit HTML und CSS anpassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
@@ -24,7 +26,7 @@ Du kannst deine Webseite mit Erweiterungen anpassen. Das gibt dir die Möglichke
 
 ## Wie man eine Webseite aktualisiert
 
-Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über die neusten [Produktänderungen und Erweiterungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur verfügbare Erweiterungen aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über die neusten [Produktänderungen und Erweiterungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur verfügbare Erweiterungen aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Wie man eine Seite versteckt
 

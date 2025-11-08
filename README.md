@@ -14,9 +14,11 @@ Core functionality of your website.
 
 You can edit your website in a text editor. The `content` folder contains the content files of the website. You can edit your website here. The `media` folder contains the media files of the website. You can store your images and files here. The `system` folder contains the system files of the website. You can find configuration files here.
 
-At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. If you want that a different page title is shown in the navigation, use `TitleNavigation` with a short title for the navigation. Text formatting with Markdown is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
+At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. If you want that a different page title is shown in the navigation, use `TitleNavigation` with a short title for the navigation. Text formatting with Markdown is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content) and [media files](https://datenstrom.se/yellow/help/how-to-change-the-media).
 
 ## How to customise a website
+
+You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. Individual settings can be defined at the top of a page. A new installation will automatically set `Sitename`, `Author`, `Email` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`
 
 You can customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
@@ -24,7 +26,7 @@ You can customise your website with extensions. This allows you to customise nea
 
 ## How to update a website
 
-You can update your website in a web browser or at the command line. You can find information about the latest [product changes and extensions](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+You can update your website in a web browser or at the command line. You can find information about the latest [product changes and extensions](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
 
 ## How to hide a page
 

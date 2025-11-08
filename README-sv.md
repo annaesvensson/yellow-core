@@ -14,9 +14,12 @@ Kärnfunktionalitet på din webbplats.
 
 Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller webbplatsens innehållsfilerna. Du kan redigera din webbplats här. Mappen `media` innehåller webbplatsens mediefilerna. Du kan lagra dina bilder och filer här. Mappen `system` innehåller webbplatsens systemfilerna. Du kan hitta konfigurationsfilar här.
 
-Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Om du vill att ett annat namn ska visas i navigeringen, använd `TitleNavigation` med ett kort namn för navigeringen. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
+Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Om du vill att ett annat namn ska visas i navigeringen, använd `TitleNavigation` med ett kort namn för navigeringen. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content) och [mediefiler](https://datenstrom.se/sv/yellow/help/how-to-change-the-media).
 
 ## Hur man anpassar en webbplats
+
+Du kan anpassa din webbplats i [systeminställningar](#inställningar-system), till exempel webbplatsens namn. 
+Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. Individuella inställningar kan definieras högst upp på en sida. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
 
 Du kan anpassa din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
@@ -24,7 +27,7 @@ Du kan anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa 
 
 ## Hur man uppdaterar en webbplats
 
-Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Hur man döljer en sida
 
