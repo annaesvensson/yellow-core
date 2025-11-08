@@ -19,7 +19,7 @@ Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inst
 ## Hur man anpassar en webbplats
 
 Du kan anpassa din webbplats i [systeminställningar](#inställningar-system), till exempel webbplatsens namn. 
-Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. Individuella inställningar kan definieras högst upp på en sida. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
+Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
 
 Du kan anpassa din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
