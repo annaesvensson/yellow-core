@@ -36,9 +36,9 @@ Set `Status: unlisted` in the [page settings](#settings-page) at the top of a pa
 
 Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
-## How to show a custom error page
+## How to change the error page
 
-A custom error page will be automatically displayed for missing files. You can customise the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
+An error page will be automatically displayed for missing files. You can change the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
 
 ## How to use the command line
 

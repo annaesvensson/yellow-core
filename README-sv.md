@@ -37,9 +37,9 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md) och på din dator. 
 
-## Hur man visar en egen felsida
+## Hur man ändrar felsidan
 
-En egen felsida visas automatiskt om filer saknas. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+En felsida visas automatiskt om filer saknas. Du kan ändra felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
 ## Hur man använder kommandoraden
 

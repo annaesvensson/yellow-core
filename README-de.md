@@ -36,9 +36,9 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellung
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) und auf deinem Computer bearbeiten.
 
-## Wie man eine eigene Fehlerseite anzeigt
+## Wie man die Fehlerseite ändert
 
-Eine eigene Fehlerseite wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+Eine Fehlerseite wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite ändern indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man die Befehlszeile benutzt
 
