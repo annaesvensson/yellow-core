@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.16
+# Core 0.9.17
 
 Core functionality of your website.
 
@@ -38,7 +38,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to change the error page
 
-An error page will be automatically displayed for missing files. You can change the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
+An error page will be displayed for missing files. You can change the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
 
 ## How to use the command line
 

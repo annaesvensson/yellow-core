@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.16
+# Core 0.9.17
 
 Kernfunktionalität deiner Webseite.
 
@@ -38,7 +38,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man die Fehlerseite ändert
 
-Eine Fehlerseite wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite ändern indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+Eine Fehlerseite wird bei fehlenden Dateien angezeigt. Du kannst die Fehlerseite ändern indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man die Befehlszeile benutzt
 

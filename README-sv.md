@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Core 0.9.16
+# Core 0.9.17
 
 Kärnfunktionalitet på din webbplats.
 
@@ -39,7 +39,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man ändrar felsidan
 
-En felsida visas automatiskt om filer saknas. Du kan ändra felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+En felsida visas om filer saknas. Du kan ändra felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
 ## Hur man använder kommandoraden
 
