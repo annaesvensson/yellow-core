@@ -38,7 +38,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man eine eigene Fehlerseite anzeigt
 
-Eine Fehlerseite ist bei der Standardinstallation mit dabei und sie wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+Eine eigene Fehlerseite ist mit dabei und sie wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man die Befehlszeile benutzt
 

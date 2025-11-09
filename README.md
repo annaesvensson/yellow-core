@@ -38,7 +38,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to show a custom error page
 
-An error page is included in the standard installation and it will be automatically displayed for missing files. You can customise the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
+A custom error page is included and it will be automatically displayed for missing files. You can customise the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
 
 ## How to use the command line
 
