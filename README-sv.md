@@ -39,7 +39,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man visar en egen felsida
 
-En egen felsida ingår och visas automatiskt om filer saknas. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+En egen felsida visas automatiskt om filer saknas. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
 ## Hur man använder kommandoraden
 
