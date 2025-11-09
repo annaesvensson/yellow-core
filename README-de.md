@@ -26,7 +26,7 @@ Du kannst deine Webseite mit Erweiterungen anpassen. Das gibt dir die Möglichke
 
 ## Wie man eine Webseite aktualisiert
 
-Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über die neusten [Produktänderungen und Erweiterungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur verfügbare Erweiterungen aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über die neusten [Produktänderungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur verfügbare Erweiterungen aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Wie man eine Seite versteckt
 
@@ -38,7 +38,7 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 
 ## Wie man eine eigene Fehlerseite anzeigt
 
-Das ist ganz einfach. Bei fehlenden Dateien wird automatisch eine Fehlerseite angezeigt. Du kannst die Fehlerseite anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+Eine Fehlerseite ist bei der Standardinstallation mit dabei und sie wird bei fehlenden Dateien automatisch angezeigt. Du kannst die Fehlerseite anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man die Befehlszeile benutzt
 

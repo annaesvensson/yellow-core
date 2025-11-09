@@ -27,7 +27,7 @@ Du kan anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa 
 
 ## Hur man uppdaterar en webbplats
 
-Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om senaste [produktändringarna och tilläggen](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om senaste [produktändringarna](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Hur man döljer en sida
 
@@ -39,7 +39,7 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 
 ## Hur man visar en egen felsida
 
-Det är ganska enkelt. Om filer saknas visas en felsida automatiskt. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+En felsida ingår i standardinstallationen och visas automatiskt om filer saknas. Du kan anpassa felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
 ## Hur man använder kommandoraden
 

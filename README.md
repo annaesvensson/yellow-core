@@ -26,7 +26,7 @@ You can customise your website with extensions. This allows you to customise nea
 
 ## How to update a website
 
-You can update your website in a web browser or at the command line. You can find information about the latest [product changes and extensions](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
+You can update your website in a web browser or at the command line. You can find information about the latest [product changes](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only available extensions will be updated, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
 
 ## How to hide a page
 
@@ -38,7 +38,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to show a custom error page
 
-It's pretty simple. An error page will be automatically displayed for missing files. You can customise the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
+An error page is included in the standard installation and it will be automatically displayed for missing files. You can customise the error page by editing the file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to show the generated `404.html` file.
 
 ## How to use the command line
 
