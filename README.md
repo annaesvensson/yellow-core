@@ -38,7 +38,7 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 
 ## How to change the error page
 
-An error page will be displayed for missing files. You can change the error page by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to disply the generated `404.html` file.
+An error page will be displayed for missing files. You can change the error page by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to display the generated `404.html` file.
 
 ## How to use the command line
 
