@@ -52,7 +52,6 @@ Följande kommandon är tillgängliga:
 `php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php log` = Visa loggfil, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
 `php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
 `php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
 `php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
