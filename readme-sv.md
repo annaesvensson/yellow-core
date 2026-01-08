@@ -1,14 +1,14 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Core 0.9.17
 
 Kärnfunktionalitet på din webbplats.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Skärmdump"></p>
+<p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-core/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-core/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man redigerar en webbplats på datorn
 
@@ -23,11 +23,11 @@ Systeminställningarna innehåller inställningarna för din webbplats och för 
 
 Det andra alternativet är att anpassa din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
-Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av systemet. Tanken är att standardinstallationen innehåller de viktigaste sakerna för små webbplatser. Du kan lägga till fler funktioner senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md) och [att göra tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md).
+Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av systemet. Tanken är att standardinstallationen innehåller de viktigaste sakerna för små webbplatser. Du kan lägga till fler funktioner senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md) och [att göra tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/readme-sv.md).
 
 ## Hur man uppdaterar en webbplats
 
-Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om [senaste produktändringar](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Du kan hitta information om [senaste produktändringar](https://datenstrom.se/sv/yellow/help/what-s-new) i hjälpen. Tänk på att att endast tillgängliga tillägg kommer att uppdateras, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man döljer en sida
 
@@ -35,7 +35,7 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 ## Hur man omdirigerar en sida
 
-Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md) och på din dator. 
+Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) och på din dator. 
 
 ## Hur man ändrar felsidan
 
@@ -43,21 +43,21 @@ En felsida visas om filer saknas. Du kan ändra felsidan genom att redigera file
 
 ## Hur man använder kommandoraden
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
+Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
 
 Följande kommandon är tillgängliga:
 
-`php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php check` = Hitta trasiga länkar, [kräver check-tillägg](https://github.com/annaesvensson/yellow-check/tree/main/README-sv.md)  
-`php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
-`php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/README-sv.md)  
-`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/README-sv.md)  
-`php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/README-sv.md)  
-`php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/README-sv.md)  
-`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php update` = Uppdatera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md)  
-`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
+`php yellow.php about` = Visa tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
+`php yellow.php check` = Hitta trasiga länkar, [kräver check-tillägg](https://github.com/annaesvensson/yellow-check/tree/main/readme-sv.md)  
+`php yellow.php clean` = Rengör statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md)  
+`php yellow.php generate` = Generera statisk webbplats, [kräver generate-tillägg](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md)  
+`php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
+`php yellow.php publish` = Publicera tillägg, [kräver publish-tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/readme-sv.md)  
+`php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md)  
+`php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/readme-sv.md)  
+`php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
+`php yellow.php update` = Uppdatera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
+`php yellow.php user` = Skapa användarkonton, [kräver edit-tillägg](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md)  
 
 ## Exempel
 
@@ -176,7 +176,7 @@ Layoutfil för standardsidan:
 
 `public` = sidan är en vanlig sida  
 `private` = sidan är inte synlig, användaren måste ange lösenord, [kräver private-tillägg](https://github.com/schulle4u/yellow-private)  
-`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/annaesvensson/yellow-draft/tree/main/README-sv.md)  
+`draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/annaesvensson/yellow-draft/tree/main/readme-sv.md)  
 `unlisted` = sidan är inte synlig, men kan nås med rätt länk  
 `shared` = sidan är inte synlig, men kan ingå i andra sidor  
 
