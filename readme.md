@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Core 0.9.17
 
-Core functionality of your website.
+Core functionality of your website. Developed by Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -202,6 +200,4 @@ The following files are important for the functionality of the website:
 
 This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
 
-## Developer
-
-Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
