@@ -24,7 +24,7 @@ The third option is to customise your website with extensions. This allows you t
 
 ## How to update a website
 
-You can update your website in a web browser or at the command line. You can find information about [latest product changes](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only extensions that are on the official website will be updated, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
+You can update your website in a web browser or at the command line. You can find information about [latest product changes](https://datenstrom.se/yellow/help/what-s-new) in the help. Keep in mind that only extensions available on the official website will be updated, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
 
 ## How to hide a page
 

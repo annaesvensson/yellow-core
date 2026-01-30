@@ -24,7 +24,7 @@ Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupass
 
 ## Wie man eine Webseite aktualisiert
 
-Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über [neuste Produktänderungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur Erweiterungen die es auf der offiziellen Webseite gibt aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
+Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Du findest Informationen über [neuste Produktänderungen](https://datenstrom.se/de/yellow/help/what-s-new) in der Hilfe. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind aktualisiert werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
 ## Wie man eine Seite versteckt
 
