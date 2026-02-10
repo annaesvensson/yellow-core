@@ -20,7 +20,7 @@ You can customise your website in the [system settings](#settings-system), for e
 
 The second option is to customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
-The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the system. The idea is that the standard installation includes the most important things for small websites. You can add more features later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update) and [making extensions](https://github.com/annaesvensson/yellow-publish).
+The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the website. The idea is that the standard installation includes the most important things for small websites. You can add more features later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update) and [making extensions](https://github.com/annaesvensson/yellow-publish).
 
 ## How to update a website
 
