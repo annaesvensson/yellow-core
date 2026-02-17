@@ -43,9 +43,9 @@ class YellowCore {
             if ($fileData!=$fileDataNew && !$this->writeFile($fileName, $fileDataNew)) {
                 $statusCode = 500;
                 header("HTTP/1.0 500 Server error");
-                echo "Something went wrong during core update: Can't write file '$fileName'! <br/>\n";
+                echo "Something went wrong during core update: Can't write file '$fileName'! <br />\n";
                 echo "Datenstrom Yellow stopped with fatal error. Activate the debug mode for more information. ";
-                echo "See https://datenstrom.se/yellow/help/troubleshooting <br/>\n";
+                echo "See https://datenstrom.se/yellow/help/troubleshooting <br />\n";
             }
             if (function_exists("opcache_reset")) opcache_reset();
         }
