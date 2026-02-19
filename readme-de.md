@@ -14,13 +14,13 @@ Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis ent
 
 Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
-## Wie man eine Webseite anpasst
+## Wie man eine Webseite auf dem Computer anpasst
 
 Du kannst deine Webseite in den [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen der Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
 Die zweite Möglichkeit besteht darin, deine Webseite mit HTML und CSS anzupassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu Layouts](https://datenstrom.se/de/yellow/help/how-to-customise-a-layout) und [Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
-Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupassen. Das gibt dir die Möglichkeit nahezu jeden Aspekt der Webseite anzupassen. Die Idee dahinter ist, dass die Standardinstallation die wichtigsten Dinge mitbringt. Du kannst später weitere Dinge hinzufügen. Wir verwenden überall die gleiche API, von Layoutdateien bis zu Erweiterungen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/readme-de.md).
+Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupassen. Das gibt dir die Möglichkeit nahezu jeden Aspekt der Webseite anzupassen. Die Idee dahinter ist, dass die Standardinstallation die wichtigsten Dinge mitbringt. Du kannst später weitere hinzufügen. Wir verwenden überall die gleiche API, von Layoutdateien bis zu Erweiterungen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md) und [Erstellen von Erweiterungen](https://github.com/annaesvensson/yellow-publish/tree/main/readme-de.md).
 
 ## Wie man eine Webseite aktualisiert
 
