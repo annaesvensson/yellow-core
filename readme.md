@@ -18,9 +18,9 @@ At the top of a page you can change `Title` and other [page settings](#settings-
 
 You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
 
-The second option is to customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about layouts](https://datenstrom.se/yellow/help/how-to-customise-a-layout) and [themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+The second option is to customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about HTML and CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css).
 
-The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the website. The idea is that the standard installation includes the most important things. You can add more later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update) and [making extensions](https://github.com/annaesvensson/yellow-publish).
+The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the website. The idea is that the standard installation includes the most important things. You can add more later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to update a website
 

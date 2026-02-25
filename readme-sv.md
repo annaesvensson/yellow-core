@@ -19,9 +19,9 @@ Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inst
 Du kan anpassa din webbplats i [systeminställningar](#inställningar-system), till exempel webbplatsens namn. 
 Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
 
-Det andra alternativet är att anpassa din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om layouter](https://datenstrom.se/sv/yellow/help/how-to-customise-a-layout) och [teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
+Det andra alternativet är att anpassa din webbplats med HTML och CSS. Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras. [Läs mer om HTML och CSS](https://datenstrom.se/sv/yellow/help/how-to-customise-html-och-css).
 
-Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av webbplatsen. Tanken är att standardinstallationen inkluderar de viktigaste sakerna. Du kan lägga till fler senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md) och [att göra tillägg](https://github.com/annaesvensson/yellow-publish/tree/main/readme-sv.md).
+Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av webbplatsen. Tanken är att standardinstallationen inkluderar de viktigaste sakerna. Du kan lägga till fler senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man uppdaterar en webbplats
 
