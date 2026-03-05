@@ -1,4 +1,4 @@
-# Core 0.9.22
+# Core 0.9.23
 
 Core functionality of your website. Developed by Anna Svensson.
 
@@ -16,7 +16,7 @@ At the top of a page you can change `Title` and other [page settings](#settings-
 
 ## How to customise a website on your computer
 
-You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
+You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email`, `From` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
 
 The second option is to customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about HTML and CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css).
 
@@ -124,6 +124,7 @@ Layout file for default page:
 `Sitename` = name of the website  
 `Author` = name of the webmaster  
 `Email` = email of the webmaster  
+`From` = email for outgoing messages  
 `Language` = default language, e.g. `en`  
 `Layout` = default layout  
 `Theme` = default theme  

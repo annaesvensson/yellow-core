@@ -1,4 +1,4 @@
-# Core 0.9.22
+# Core 0.9.23
 
 Kernfunktionalität deiner Webseite. Entwickelt von Anna Svensson.
 
@@ -16,7 +16,7 @@ Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#ei
 
 ## Wie man eine Webseite auf dem Computer anpasst
 
-Du kannst deine Webseite in den [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen der Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
+Du kannst deine Webseite in den [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen der Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email`, `From` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
 Die zweite Möglichkeit besteht darin, deine Webseite mit HTML und CSS anzupassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu HTML und CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css).
 
@@ -123,6 +123,7 @@ Layoutdatei für Standard-Seite:
 `Sitename` = Name der Webseite  
 `Author` = Name des Webmasters  
 `Email` = E-Mail des Webmasters  
+`From` = E-Mail für ausgehende Nachrichten  
 `Language` = Standard-Sprache, z.B. `de`  
 `Layout` = Standard-Layout  
 `Theme` = Standard-Theme  
