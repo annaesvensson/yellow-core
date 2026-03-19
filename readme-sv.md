@@ -1,4 +1,4 @@
-# Core 0.9.24
+# Core 0.9.25
 
 Kärnfunktionalitet på din webbplats. Utvecklad av Anna Svensson.
 
