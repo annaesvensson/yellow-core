@@ -1,4 +1,4 @@
-# Core 0.9.23
+# Core 0.9.24
 
 Kärnfunktionalitet på din webbplats. Utvecklad av Anna Svensson.
 
@@ -137,7 +137,7 @@ Layoutfil för standardsidan:
 `CoreContentErrorFile` = innehållsfil för felsida  
 `CoreLanguageFile` = fil med språkinställningar  
 `CoreUserFile` = fil med användarinställningar  
-`CoreWebsiteFile` = webbplatsens loggfil  
+`CoreWebsiteFile` = webbplatsens loggfil, `none` för att inaktivera  
 `CoreAssetLocation` = plats för virtuellt mappade systemfiler  
 `CoreMediaLocation` = plats för mediafiler  
 `CoreDownloadLocation` = plats för nedladdningar  

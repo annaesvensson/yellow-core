@@ -1,4 +1,4 @@
-# Core 0.9.23
+# Core 0.9.24
 
 Kernfunktionalität deiner Webseite. Entwickelt von Anna Svensson.
 
@@ -136,7 +136,7 @@ Layoutdatei für Standard-Seite:
 `CoreContentErrorFile` =  Inhaltsdatei für Fehlerseite  
 `CoreLanguageFile` = Datei mit Spracheinstellungen  
 `CoreUserFile` = Datei mit Benutzereinstellungen  
-`CoreWebsiteFile` = Logdatei der Webseite  
+`CoreWebsiteFile` = Logdatei der Webseite, `none` um zu deaktivieren  
 `CoreAssetLocation` = Ort für virtuell zugeordnete Systemdateien  
 `CoreMediaLocation` = Ort für Mediendateien  
 `CoreDownloadLocation` = Ort für Dateien zum Herunterladen  

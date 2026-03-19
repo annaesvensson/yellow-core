@@ -1,4 +1,4 @@
-# Core 0.9.23
+# Core 0.9.24
 
 Core functionality of your website. Developed by Anna Svensson.
 
@@ -137,7 +137,7 @@ Layout file for default page:
 `CoreContentErrorFile` = content file for error page  
 `CoreLanguageFile` = file with language settings  
 `CoreUserFile` = file with user settings  
-`CoreWebsiteFile` = log file of the website  
+`CoreWebsiteFile` = log file of the website, `none` to disable  
 `CoreAssetLocation` = location for virtually mapped system files  
 `CoreMediaLocation` = location for media files  
 `CoreDownloadLocation` = location for downloads  
