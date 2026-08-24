@@ -22,10 +22,6 @@ Die zweite Möglichkeit besteht darin, deine Webseite mit HTML und CSS anzupasse
 
 Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupassen. Das gibt dir die Möglichkeit nahezu jeden Aspekt der Webseite anzupassen. Die Idee dahinter ist, dass die Standardinstallation die wichtigsten Dinge mitbringt. Du kannst später weitere hinzufügen. Wir verwenden überall die gleiche API, von Layoutdateien bis zu Erweiterungen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
-## Wie man eine Webseite aktualisiert
-
-Du kannst deine Webseite im Webbrowser oder der Befehlszeile aktualisieren. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind in den Aktualisierungsmechanismus einbezogen werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
-
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation, der Sitemap und Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
@@ -37,6 +33,10 @@ Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#ein
 ## Wie man die Fehlerseite ändert
 
 Eine Fehlerseite wird bei fehlenden Dateien angezeigt. Du kannst die Fehlerseite ändern indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+
+## Wie man die Kernfunktionalität aktualisiert
+
+Du kannst die Kernfunktionalität deiner Webseite im Webbrowser oder der Befehlszeile aktualisieren. Auf diese Weise kannst du deine Webseite auf dem neusten Stand halten. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind in den Aktualisierungsmechanismus einbezogen werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
 ## Wie man die Befehlszeile benutzt
 

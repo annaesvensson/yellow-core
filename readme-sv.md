@@ -23,10 +23,6 @@ Det andra alternativet är att anpassa din webbplats med HTML och CSS. Alla HTML
 
 Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av webbplatsen. Tanken är att standardinstallationen inkluderar de viktigaste sakerna. Du kan lägga till fler senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
-## Hur man uppdaterar en webbplats
-
-Du kan uppdatera din webbplats i en webbläsare eller via kommandoraden. Tänk på att endast tillägg som är tillgängliga på den officiella webbplatsen kommer att ingå i uppdateringsmekanismen, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
-
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigeringen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
@@ -38,6 +34,10 @@ Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på e
 ## Hur man ändrar felsidan
 
 En felsida visas om filer saknas. Du kan ändra felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+
+## Hur man uppdaterar kärnfunktionalitet
+
+Du kan uppdatera kärnfunktionalitet på din webbplats i en webbläsare eller via kommandoraden. På så sätt kan du hålla din webbplats uppdaterad. Tänk på att endast tillägg som är tillgängliga på den officiella webbplatsen kommer att ingå i uppdateringsmekanismen, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man använder kommandoraden
 

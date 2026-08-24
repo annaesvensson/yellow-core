@@ -22,10 +22,6 @@ The second option is to customise your website with HTML and CSS. All HTML files
 
 The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the website. The idea is that the standard installation includes the most important things. You can add more later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
-## How to update a website
-
-You can update your website in a web browser or at the command line. Keep in mind that only extensions available on the official website will be included in the update mechanism, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
-
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation, sitemap and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
@@ -37,6 +33,10 @@ Set `Redirect` in the [page settings](#settings-page) at the top of a page. The 
 ## How to change the error page
 
 An error page will be displayed for missing files. You can change the error page by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to display the generated `404.html` file.
+
+## How to update the core functionality
+
+You can update the core functionality of your website in a web browser or at the command line. This allows you to keep your website up to date. Keep in mind that only extensions available on the official website will be included in the update mechanism, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
 
 ## How to use the command line
 
