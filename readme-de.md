@@ -36,7 +36,7 @@ Eine Fehlerseite wird bei fehlenden Dateien angezeigt. Du kannst die Fehlerseite
 
 ## Wie man die Kernfunktionalität aktualisiert
 
-Du kannst die Kernfunktionalität deiner Webseite im Webbrowser oder der Befehlszeile aktualisieren. Auf diese Weise kannst du deine Webseite auf dem neusten Stand halten. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind in den Aktualisierungsmechanismus einbezogen werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
+Du kannst die Kernfunktionalität im Webbrowser, der Befehlszeile oder manuell aktualisieren. Auf diese Weise kannst du deine Webseite auf dem neusten Stand halten. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind in den Aktualisierungsmechanismus einbezogen werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
 ## Wie man die Befehlszeile benutzt
 

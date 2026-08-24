@@ -37,7 +37,7 @@ En felsida visas om filer saknas. Du kan ändra felsidan genom att redigera file
 
 ## Hur man uppdaterar kärnfunktionalitet
 
-Du kan uppdatera kärnfunktionalitet på din webbplats i en webbläsare eller via kommandoraden. På så sätt kan du hålla din webbplats uppdaterad. Tänk på att endast tillägg som är tillgängliga på den officiella webbplatsen kommer att ingå i uppdateringsmekanismen, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
+Du kan uppdatera kärnfunktionalitet i en webbläsare, via kommandoraden eller manuellt. På så sätt kan du hålla din webbplats uppdaterad. Tänk på att endast tillägg som är tillgängliga på den officiella webbplatsen kommer att ingå i uppdateringsmekanismen, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man använder kommandoraden
 

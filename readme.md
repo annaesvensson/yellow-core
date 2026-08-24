@@ -36,7 +36,7 @@ An error page will be displayed for missing files. You can change the error page
 
 ## How to update the core functionality
 
-You can update the core functionality of your website in a web browser or at the command line. This allows you to keep your website up to date. Keep in mind that only extensions available on the official website will be included in the update mechanism, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
+You can update the core functionality in a web browser, at the command line or manually. This allows you to keep your website up to date. Keep in mind that only extensions available on the official website will be included in the update mechanism, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
 
 ## How to use the command line
 
