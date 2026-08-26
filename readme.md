@@ -14,13 +14,17 @@ You can edit your website in a text editor. The `content` folder contains the [c
 
 At the top of a page you can change `Title` and other [page settings](#settings-page). Below you can change text and images. If you want that a different page title is shown in the navigation, use `TitleNavigation` with a short title for the navigation. Text formatting with Markdown is supported. HTML is also supported. [Learn more about text formatting](https://datenstrom.se/yellow/help/how-to-change-the-content).
 
-## How to customise a website on your computer
+## How to customise a website
 
 You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email`, `From` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
 
 The second option is to customise your website with HTML and CSS. All HTML files are stored in your `system/layouts` folder. All CSS files are stored in your `system/themes` folder. You can change these files as you like and also add your own files. Your changes will not be overwritten when the website is updated. [Learn more about HTML and CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css).
 
 The third option is to customise your website with extensions. This allows you to customise nearly every aspect of the website. The idea is that the standard installation includes the most important things. You can add more later. We are using the same API everywhere, from layout files to extensions. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
+## How to customise an error page
+
+An error page will be displayed for missing files and other errors. You can customise the error page for missing files by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to display the generated `404.html` file.
 
 ## How to hide a page
 
@@ -29,10 +33,6 @@ Set `Status: unlisted` in the [page settings](#settings-page) at the top of a pa
 ## How to redirect a page
 
 Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
-
-## How to change the error page
-
-An error page will be displayed for missing files. You can change the error page by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to display the generated `404.html` file.
 
 ## How to update the core functionality
 

@@ -14,13 +14,17 @@ Du kannst deine Webseite im Texteditor bearbeiten. Das `content`-Verzeichnis ent
 
 Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#einstellungen-seite) ändern. Darunter kannst du Text und Bilder ändern. Falls du einen anderen Seitentitel in der Navigation anzeigen willst, benutze `TitleNavigation` mit einem kurzen Titel für die Navigation. Textformatierung mit Markdown wird unterstützt. HTML wird auch unterstützt. [Weitere Informationen zu Textformatierung](https://datenstrom.se/de/yellow/help/how-to-change-the-content).
 
-## Wie man eine Webseite auf dem Computer anpasst
+## Wie man eine Webseite anpasst
 
 Du kannst deine Webseite in den [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen der Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email`, `From` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
 Die zweite Möglichkeit besteht darin, deine Webseite mit HTML und CSS anzupassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben. [Weitere Informationen zu HTML und CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css).
 
 Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupassen. Das gibt dir die Möglichkeit nahezu jeden Aspekt der Webseite anzupassen. Die Idee dahinter ist, dass die Standardinstallation die wichtigsten Dinge mitbringt. Du kannst später weitere hinzufügen. Wir verwenden überall die gleiche API, von Layoutdateien bis zu Erweiterungen. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
+
+## Wie man eine Fehlerseite anpasst
+
+Bei fehlenden Dateien und anderen Fehlern wir eine Fehlerseite angezeigt. Du kannst die Fehlerseite für fehlende Dateien anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man eine Seite versteckt
 
@@ -29,10 +33,6 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellung
 ## Wie man eine Seite weiterleitet
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) und auf deinem Computer bearbeiten.
-
-## Wie man die Fehlerseite ändert
-
-Eine Fehlerseite wird bei fehlenden Dateien angezeigt. Du kannst die Fehlerseite ändern indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man die Kernfunktionalität aktualisiert
 

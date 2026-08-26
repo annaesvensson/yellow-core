@@ -14,7 +14,7 @@ Du kan redigera din webbplats i textredigeraren. Mappen `content` innehåller we
 
 Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inställningar-page). Nedan kan du ändra text och bilder. Om du vill att ett annat namn ska visas i navigeringen, använd `TitleNavigation` med ett kort namn för navigeringen. Textformatering med Markdown stöds. HTML stöds också. [Läs mer om textformatering](https://datenstrom.se/sv/yellow/help/how-to-change-the-content).
 
-## Hur man anpassar en webbplats på datorn
+## Hur man anpassar en webbplats
 
 Du kan anpassa din webbplats i [systeminställningar](#inställningar-system), till exempel webbplatsens namn. 
 Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email`, `From` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
@@ -23,6 +23,10 @@ Det andra alternativet är att anpassa din webbplats med HTML och CSS. Alla HTML
 
 Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger dig möjlighet att anpassa nästan alla aspekter av webbplatsen. Tanken är att standardinstallationen inkluderar de viktigaste sakerna. Du kan lägga till fler senare. Vi använder samma API:et överallt, från layoutfiler till tillägg. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
+## Hur man anpassar en felsida
+
+En felsida visas vid saknade filer och andra fel. Du kan anpassa felsidan för saknade filer genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
+
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigeringen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
@@ -30,10 +34,6 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 ## Hur man omdirigerar en sida
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) och på din dator. 
-
-## Hur man ändrar felsidan
-
-En felsida visas om filer saknas. Du kan ändra felsidan genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
 ## Hur man uppdaterar kärnfunktionalitet
 
