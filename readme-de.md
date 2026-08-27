@@ -34,9 +34,9 @@ Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellung
 
 Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) und auf deinem Computer bearbeiten.
 
-## Wie man die Kernfunktionalität aktualisiert
+## Wie man eine Seite löscht
 
-Du kannst die Kernfunktionalität im Webbrowser, der Befehlszeile oder manuell aktualisieren. Auf diese Weise kannst du deine Webseite auf dem neusten Stand halten. Denke daran dass nur Erweiterungen die auf der offiziellen Webseite verfügbar sind in den Aktualisierungsmechanismus einbezogen werden, möglicherweise musst du experimentelle Erweiterungen manuell aktualisieren. [Weitere Informationen zum Aktualisieren](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
+Du kannst [Inhaltsdateien](https://datenstrom.se/de/yellow/help/how-to-change-the-content) manuell aus dem `content`-Verzeichnis löschen oder den [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) verwenden.
 
 ## Wie man die Befehlszeile benutzt
 

@@ -34,9 +34,9 @@ Set `Status: unlisted` in the [page settings](#settings-page) at the top of a pa
 
 Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
-## How to update the core functionality
+## How to delete a page
 
-You can update the core functionality in a web browser, at the command line or manually. This allows you to keep your website up to date. Keep in mind that only extensions available on the official website will be included in the update mechanism, you may need to update experimental extensions manually. [Learn more about updating](https://github.com/annaesvensson/yellow-update).
+You can manually delete [content files](https://datenstrom.se/yellow/help/how-to-change-the-content) from the `content` folder or use the [web browser](https://github.com/annaesvensson/yellow-edit).
 
 ## How to use the command line
 

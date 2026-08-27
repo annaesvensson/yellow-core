@@ -35,9 +35,9 @@ Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst u
 
 Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) och på din dator. 
 
-## Hur man uppdaterar kärnfunktionalitet
+## Hur man tar bort en sida
 
-Du kan uppdatera kärnfunktionalitet i en webbläsare, via kommandoraden eller manuellt. På så sätt kan du hålla din webbplats uppdaterad. Tänk på att endast tillägg som är tillgängliga på den officiella webbplatsen kommer att ingå i uppdateringsmekanismen, eventuellt måste du uppdatera experimentella tillägg manuellt. [Läs mer om uppdatering](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
+Du kan ta bort [innehållsfilerna](https://datenstrom.se/sv/yellow/help/how-to-change-the-content) manuellt från mappen `content` eller använda [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md).
 
 ## Hur man använder kommandoraden
 
