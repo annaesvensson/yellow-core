@@ -27,13 +27,13 @@ Det tredje alternativet är att anpassa din webbplats med tillägg. Detta ger di
 
 En felsida visas vid saknade filer och andra fel. Du kan anpassa felsidan för saknade filer genom att redigera filen `content/shared/page-error-404.md`. För en statisk webbplats kan du behöva konfigurera din webbserver för att visa den genererade `404.html`-filen.
 
+## Hur man omdirigerar en sida
+
+Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Till exempel `Redirect: /help/how-to-make-a-small-website` eller `Redirect: https://datenstrom.se/sv/`. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) och på din dator. 
+
 ## Hur man döljer en sida
 
 Ställ `Status: unlisted` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan är inte längre synlig i navigeringen, webbplatskartan och sökresultat. Du kan välja mellan olika [statusvärden](#inställningar-status) för att bestämma vem som kan se och komma åt en sida. 
-
-## Hur man omdirigerar en sida
-
-Ställ `Redirect` i [sidinställningarna](#inställningar-page) högst upp på en sida. Sidan omdirigeras till en annan sida eller URL. Du kan fortsätta att redigera sidan i [webbläsaren](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) och på din dator. 
 
 ## Hur man tar bort en sida
 
@@ -82,21 +82,21 @@ Innehållsfil med kort namn:
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
+Innehållsfil med omdirigering:
+
+    ---
+    Title: Omdirigera sida
+    Redirect: /help/how-to-make-a-small-website
+    ---
+    Den här sidan omdirigeras till en annan sida.
+
 Innehållsfil med olistad sida:
 
     ---
     Title: Olistad sida
     Status: unlisted
     ---
-    Den här sidan är inte synlig i navigeringen, webbplatskarta och sökresultat.
-
-Innehållsfil med omdirigering:
-
-    ---
-    Title: Omdirigera sida
-    Redirect: https://datenstrom.se/sv/yellow/
-    ---
-    Den här sidan omdirigeras till en annan sida.
+    Den här sidan är inte synlig i navigeringen, webbplatskartan och sökresultaten.
 
 Innehållsfil för felsidan:
 

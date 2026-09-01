@@ -26,13 +26,13 @@ Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupass
 
 Bei fehlenden Dateien und anderen Fehlern wir eine Fehlerseite angezeigt. Du kannst die Fehlerseite für fehlende Dateien anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
+## Wie man eine Seite weiterleitet
+
+Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Beispielsweise `Redirect: /help/how-to-make-a-small-website` oder `Redirect: https://datenstrom.se/de/`. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) und auf deinem Computer bearbeiten.
+
 ## Wie man eine Seite versteckt
 
 Ganz oben auf einer Seite kannst du `Status: unlisted` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite ist dann in der Navigation, der Sitemap und Suchergebnissen nicht mehr sichtbar. Du kannst zwischen verschiedenen [Statuswerten](#einstellungen-status) wählen, um zu bestimmen wer eine Seite sehen und darauf zugreifen kann.
-
-## Wie man eine Seite weiterleitet
-
-Ganz oben auf einer Seite kannst du `Redirect` in den [Seiteneinstellungen](#einstellungen-seite) festlegen. Die Seite wird dann zu einer anderen Seite oder URL weitergeleitet. Du kannst die Seite weiterhin im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) und auf deinem Computer bearbeiten.
 
 ## Wie man eine Seite löscht
 
@@ -81,6 +81,14 @@ Inhaltsdatei mit kurzem Titel:
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
+Inhaltsdatei mit Weiterleitung:
+
+    ---
+    Title: Seite weiterleiten
+    Redirect: /help/how-to-make-a-small-website
+    ---
+    Diese Seite wird zu einer anderen Seite weitergeleitet.
+
 Inhaltsdatei mit ungelisteter Seite:
 
     ---
@@ -88,14 +96,6 @@ Inhaltsdatei mit ungelisteter Seite:
     Status: unlisted
     ---
     Diese Seite ist in der Navigation, der Sitemap und Suchergebnissen nicht sichtbar.
-
-Inhaltsdatei mit Weiterleitung:
-
-    ---
-    Title: Seite weiterleiten
-    Redirect: https://datenstrom.se/de/yellow/
-    ---
-    Diese Seite wird zu einer anderen Seite weitergeleitet.
 
 Inhaltsdatei für Fehlerseite:
 

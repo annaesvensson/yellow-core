@@ -26,13 +26,13 @@ The third option is to customise your website with extensions. This allows you t
 
 An error page will be displayed for missing files and other errors. You can customise the error page for missing files by editing file `content/shared/page-error-404.md`. For a static website you may need to configure your web server to display the generated `404.html` file.
 
+## How to redirect a page
+
+Set `Redirect` in the [page settings](#settings-page) at the top of a page. For example `Redirect: /help/how-to-make-a-small-website` or `Redirect: https://datenstrom.se/`. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
+
 ## How to hide a page
 
 Set `Status: unlisted` in the [page settings](#settings-page) at the top of a page. The page is no longer visible in navigation, sitemap and search results. You can choose between different [status values](#settings-status), to control who can see and access a page.
-
-## How to redirect a page
-
-Set `Redirect` in the [page settings](#settings-page) at the top of a page. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
 ## How to delete a page
 
@@ -82,6 +82,14 @@ Content file with short title:
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
 
+Content file with redirection:
+
+    ---
+    Title: Redirect page
+    Redirect: /help/how-to-make-a-small-website
+    ---
+    This page is redirected to another page.
+
 Content file with unlisted page:
 
     ---
@@ -89,14 +97,6 @@ Content file with unlisted page:
     Status: unlisted
     ---
     This page is not visible in navigation, sitemap and search results.
-
-Content file with redirection:
-
-    ---
-    Title: Redirect page
-    Redirect: https://datenstrom.se/yellow/
-    ---
-    This page is redirected to another page.
 
 Content file for error page:
 
