@@ -24,7 +24,7 @@ Die dritte Möglichkeit besteht darin, deine Webseite mit Erweiterungen anzupass
 
 ## Wie man eine Fehlerseite anpasst
 
-Bei fehlenden Dateien und anderen Fehlern wir eine Fehlerseite angezeigt. Du kannst die Fehlerseite für fehlende Dateien anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
+Bei fehlenden Dateien und anderen Fehlern wird eine Fehlerseite angezeigt. Du kannst die Fehlerseite für fehlende Dateien anpassen indem du die Datei `content/shared/page-error-404.md` bearbeitest. Bei einer statischen Webseite musst du eventuell deinen Webserver so konfigurieren dass er die erzeugte `404.html`-Datei anzeigt.
 
 ## Wie man eine Seite weiterleitet
 

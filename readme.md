@@ -28,7 +28,7 @@ An error page will be displayed for missing files and other errors. You can cust
 
 ## How to redirect a page
 
-Set `Redirect` in the [page settings](#settings-page) at the top of a page. For example `Redirect: /help/how-to-make-a-small-website` or `Redirect: https://datenstrom.se/`. The page is redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
+Set `Redirect` in the [page settings](#settings-page) at the top of a page. For example `Redirect: /help/how-to-make-a-small-website` or `Redirect: https://datenstrom.se/`. The page will be redirected to another page or URL. You can continue to edit the page in the [web browser](https://github.com/annaesvensson/yellow-edit) and on your computer.
 
 ## How to hide a page
 
@@ -88,7 +88,7 @@ Content file with redirection:
     Title: Redirect page
     Redirect: /help/how-to-make-a-small-website
     ---
-    This page is redirected to another page.
+    This page will be redirected to another page.
 
 Content file with unlisted page:
 
