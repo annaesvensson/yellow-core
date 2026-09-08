@@ -49,7 +49,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php clean` = Statische Webseite löschen, [erfordert Generate-Erweiterung](https://github.com/annaesvensson/yellow-generate/tree/main/readme-de.md)  
 `php yellow.php generate` = Statische Webseite generieren, [erfordert Generate-Erweiterung](https://github.com/annaesvensson/yellow-generate/tree/main/readme-de.md)  
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md)  
-`php yellow.php publish` = Erweiterungen veröffentlichen, [erfordert Publish-Erweiterung](https://github.com/annaesvensson/yellow-publish/tree/main/readme-de.md)  
+`php yellow.php maintain` = Erweiterungen pflegen, [erfordert Maintain-Erweiterung](https://github.com/annaesvensson/yellow-maintain/tree/main/readme-de.md)  
 `php yellow.php serve` = Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/readme-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/annaesvensson/yellow-traffic/tree/main/readme-de.md)  
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md)  

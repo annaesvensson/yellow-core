@@ -49,7 +49,7 @@ The following commands are available:
 `php yellow.php clean` = Clean static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php generate` = Generate static website, [requires generate extension](https://github.com/annaesvensson/yellow-generate)  
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
-`php yellow.php publish` = Publish extensions, [requires publish extension](https://github.com/annaesvensson/yellow-publish)  
+`php yellow.php maintain` = Maintain extensions, [requires maintain extension](https://github.com/annaesvensson/yellow-maintain)  
 `php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
 `php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
