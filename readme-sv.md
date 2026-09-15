@@ -41,7 +41,7 @@ Du kan ta bort [innehållsfilerna](https://datenstrom.se/sv/yellow/help/how-to-c
 
 ## Hur man använder kommandoraden
 
-Du kan köra kommandon från kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
+För utvecklare finns olika verktyg tillgängliga i kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md) och automatisera rutinuppgifter. De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
 
 Följande kommandon är tillgängliga:
 

@@ -40,7 +40,7 @@ You can manually delete [content files](https://datenstrom.se/yellow/help/how-to
 
 ## How to use the command line
 
-You can execute commands at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve) and [generate a static website](https://github.com/annaesvensson/yellow-generate). The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
+For developers there are various tools available at the command line. This allows you, for example, to [start a web server](https://github.com/annaesvensson/yellow-serve), [generate a static website](https://github.com/annaesvensson/yellow-generate) and automate routine tasks. The available commands depend on extensions installed. Open a terminal window. Go to your installation folder, where the file `yellow.php` is. Type `php yellow.php` to show available commands.
 
 The following commands are available:
 
