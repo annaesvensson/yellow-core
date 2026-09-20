@@ -16,7 +16,7 @@ Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#ei
 
 ## Wie man eine Webseite anpasst
 
-Die erste Möglichkeit besteht darin, deine Webseite mithilfe von [Erweiterungen](https://datenstrom.se/de/yellow/extensions/) anzupassen. Es gibt Erweiterungen mit zusätzlichen Funktionen, Sprachen und Themes die du installieren kannst. Die Idee dahinter ist, dass eine Neuinstallation die wichtigsten Dinge für eine kleine Webseite mitbringt. Du kannst später weitere Erweiterungen installieren. Das gibt dir die Möglichkeit nahezu jeden Aspekt einer Webseite anzupassen.
+Die erste Möglichkeit besteht darin, deine Webseite mithilfe von [Erweiterungen](https://datenstrom.se/de/yellow/extensions/) anzupassen. Es gibt Erweiterungen mit zusätzlichen Funktionen, Sprachen und Themes die du installieren kannst. Die Idee dahinter ist, dass eine Neuinstallation die wichtigsten Dinge für eine kleine Webseite mitbringt. Du kannst später weitere Erweiterungen installieren und auch deine eigenen Erweiterungen erstellen. Das gibt dir die Möglichkeit nahezu jeden Aspekt einer Webseite anzupassen.
 
 Die zweite Möglichkeit besteht darin, deine Webseite mithilfe von [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen deiner Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email`, `From` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
