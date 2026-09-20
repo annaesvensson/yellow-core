@@ -51,6 +51,7 @@ The following commands are available:
 `php yellow.php install` = Install extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php maintain` = Maintain extensions, [requires maintain extension](https://github.com/annaesvensson/yellow-maintain)  
 `php yellow.php serve` = Start web server, [requires serve extension](https://github.com/annaesvensson/yellow-serve)  
+`php yellow.php skip installation` = Skip installation, [requires install extension](https://github.com/annaesvensson/yellow-install)  
 `php yellow.php traffic` = Create traffic analytics, [requires traffic extension](https://github.com/annaesvensson/yellow-traffic)  
 `php yellow.php uninstall` = Uninstall extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
 `php yellow.php update` = Update extensions, [requires update extension](https://github.com/annaesvensson/yellow-update)  
@@ -196,6 +197,11 @@ The following files are important for the functionality of the website:
 `system/extensions/yellow-language.ini` = file with language settings  
 `system/extensions/yellow-user.ini` = file with user settings  
 `system/extensions/yellow-website.log` = log file of the website  
+
+The following files are part of the update mechanism:
+
+`system/extensions/yellow-update-installed.ini` = file with update settings for installed extensions  
+`system/extensions/yellow-update-maintained.ini` = file with update settings for maintained extensions  
 
 ## Acknowledgements
 

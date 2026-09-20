@@ -51,6 +51,7 @@ Följande kommandon är tillgängliga:
 `php yellow.php install` = Installera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
 `php yellow.php maintain` = Underhålla tillägg, [kräver maintain-tillägg](https://github.com/annaesvensson/yellow-maintain/tree/main/readme-sv.md)  
 `php yellow.php serve` = Starta webbserver, [kräver serve-tillägg](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md)  
+`php yellow.php skip installation` = Hoppa över installationen, [kräver install-tillägg](https://github.com/annaesvensson/yellow-install/tree/main/readme-sv.md)  
 `php yellow.php traffic` = Skapa trafikanalyser, [kräver traffic-tillägg](https://github.com/annaesvensson/yellow-traffic/tree/main/readme-sv.md)  
 `php yellow.php uninstall` = Avinstallera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
 `php yellow.php update` = Uppdatera tillägg, [kräver update-tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md)  
@@ -195,6 +196,11 @@ Följande filer är viktiga för webbplatsens funktion:
 `system/extensions/yellow-language.ini` = fil med språkinställningar  
 `system/extensions/yellow-user.ini` = fil med användarinställningar  
 `system/extensions/yellow-website.log` = webbplatsens loggfil  
+
+Följande filer är del av uppdateringsmekanismen:
+
+`system/extensions/yellow-update-installed.ini` = fil med uppdateringsinställningar för installerade tillägg  
+`system/extensions/yellow-update-maintained.ini` = fil med uppdateringsinställningar för underhållna tillägg  
 
 ## Tack
 

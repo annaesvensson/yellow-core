@@ -51,6 +51,7 @@ Die folgenden Befehle sind verfügbar:
 `php yellow.php install` = Erweiterungen installieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md)  
 `php yellow.php maintain` = Erweiterungen pflegen, [erfordert Maintain-Erweiterung](https://github.com/annaesvensson/yellow-maintain/tree/main/readme-de.md)  
 `php yellow.php serve` = Webserver starten, [erfordert Serve-Erweiterung](https://github.com/annaesvensson/yellow-serve/tree/main/readme-de.md)  
+`php yellow.php skip installation` = Installation überspringen, [erfordert Install-Erweiterung](https://github.com/annaesvensson/yellow-install/tree/main/readme-de.md)  
 `php yellow.php traffic` = Zugriffsanalysen erstellen, [erfordert Traffic-Erweiterung](https://github.com/annaesvensson/yellow-traffic/tree/main/readme-de.md)  
 `php yellow.php uninstall` = Erweiterungen deinstallieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md)  
 `php yellow.php update` = Erweiterungen aktualisieren, [erfordert Update-Erweiterung](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md)  
@@ -195,6 +196,11 @@ Die folgenden Dateien sind wichtig für die Funktionsweise der Webseite:
 `system/extensions/yellow-language.ini` = Datei mit Spracheinstellungen  
 `system/extensions/yellow-user.ini` = Datei mit Benutzereinstellungen  
 `system/extensions/yellow-website.log` = Logdatei der Webseite  
+
+Die folgenden Einstellungen sind Teil des Aktualisieriungsmechanismus:
+
+`system/extensions/yellow-update-installed.ini` = Datei mit Aktualisierungseinstellungen für installierte Erweiterungen  
+`system/extensions/yellow-update-maintained.ini` = Datei mit Aktualisierungseinstellungen für gepflegte Erweiterungen  
 
 ## Danksagung
 
