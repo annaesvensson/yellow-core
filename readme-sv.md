@@ -16,9 +16,9 @@ Högst upp på en sida kan du ändra `Title` och andra [sidinställningar](#inst
 
 ## Hur man anpassar en webbplats
 
-Det första alternativet är att anpassa din webbplats med hjälp av [systeminställningar](#inställningar-system), till exempel namnet på din webbplats. Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email`, `From` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
+Det första alternativet är att anpassa din webbplats med hjälp av [tillägg](https://datenstrom.se/sv/yellow/extensions/). Det finns tillägg med ytterligare funktioner, språk och teman som du kan installera. Tanken är att en ny installation inkluderar de viktigaste sakerna för en liten webbsida. Du kan installera fler tillägg senare. Detta ger dig möjlighet att anpassa nästan alla aspekter av en webbplats.
 
-Det andra alternativet är att anpassa din webbplats med hjälp av [tillägg](https://datenstrom.se/sv/yellow/extensions/). Det finns tillägg med ytterligare funktioner, språk och teman som du kan installera. Tanken är att en ny installation inkluderar de viktigaste sakerna för en liten webbsida. Du kan installera fler tillägg senare. Detta ger dig möjlighet att anpassa nästan alla aspekter av en webbplats.
+Det andra alternativet är att anpassa din webbplats med hjälp av [systeminställningar](#inställningar-system), till exempel namnet på din webbplats. Systeminställningarna innehåller inställningarna för din webbplats och för alla installerade tillägg. En ny installation kommer automatiskt att ställa in `Sitename`, `Author`, `Email`, `From` och `Language`. Alla systeminställningar lagras i filen `system/extensions/yellow-system.ini`.
 
 Det tredje alternativet är att anpassa din webbplats med hjälp av [HTML och CSS](https://datenstrom.se/sv/yellow/help/how-to-customise-html-and-css). Alla HTML-filer finns i `system/layouts` mappen. Alla CSS-filer finns i `system/themes` mappen. Du kan ändra dessa filer som du vill och även lägga till dina egna filer. Dina ändringar kommer inte att skrivas över när webbplatsen uppdateras.
 
@@ -40,7 +40,7 @@ Du kan ta bort [innehållsfilerna](https://datenstrom.se/sv/yellow/help/how-to-c
 
 ## Hur man använder kommandoraden
 
-För utvecklare och formgivare finns olika verktyg tillgängliga i kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md), [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md) och automatisera rutinuppgifter. De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
+För utvecklare och formgivare finns olika verktyg tillgängliga i kommandoraden. Detta ger dig möjlighet att till exempel [starta en webbserver](https://github.com/annaesvensson/yellow-serve/tree/main/readme-sv.md) och [generera en statisk webbplats](https://github.com/annaesvensson/yellow-generate/tree/main/readme-sv.md). De tillgängliga kommandona beror på installerade tillägg. Öppna ett terminalfönster. Gå till installationsmappen där filen `yellow.php` finns. Skriv `php yellow.php` för att visa tillgängliga kommandona.
 
 Följande kommandon är tillgängliga:
 

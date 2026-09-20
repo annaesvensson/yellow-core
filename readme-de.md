@@ -16,9 +16,9 @@ Ganz oben auf einer Seite kannst du `Title` und andere [Seiteneinstellungen](#ei
 
 ## Wie man eine Webseite anpasst
 
-Die erste Möglichkeit besteht darin, deine Webseite mithilfe von [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen deiner Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email`, `From` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
+Die erste Möglichkeit besteht darin, deine Webseite mithilfe von [Erweiterungen](https://datenstrom.se/de/yellow/extensions/) anzupassen. Es gibt Erweiterungen mit zusätzlichen Funktionen, Sprachen und Themes die du installieren kannst. Die Idee dahinter ist, dass eine Neuinstallation die wichtigsten Dinge für eine kleine Webseite mitbringt. Du kannst später weitere Erweiterungen installieren. Das gibt dir die Möglichkeit nahezu jeden Aspekt einer Webseite anzupassen.
 
-Die zweite Möglichkeit besteht darin, deine Webseite mithilfe von [Erweiterungen](https://datenstrom.se/de/yellow/extensions/) anzupassen. Es gibt Erweiterungen mit zusätzlichen Funktionen, Sprachen und Themes die du installieren kannst. Die Idee dahinter ist, dass eine Neuinstallation die wichtigsten Dinge für eine kleine Webseite mitbringt. Du kannst später weitere Erweiterungen installieren. Das gibt dir die Möglichkeit nahezu jeden Aspekt einer Webseite anzupassen.
+Die zweite Möglichkeit besteht darin, deine Webseite mithilfe von [Systemeinstellungen](#einstellungen-system) anpassen, beispielsweise den Namen deiner Webseite. Die Systemeinstellungen enthalten die Einstellungen der Webseite und aller installierten Erweiterungen. Bei einer Neuinstallation werden `Sitename`, `Author`, `Email`, `From` und `Language` automatisch festgelegt. Alle Systemeinstellungen werden in der Datei `system/extensions/yellow-system.ini` gespeichert.
 
 Die dritte Möglichkeit besteht darin, deine Webseite mithilfe von [HTML und CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css) anzupassen. Alle HTML-Dateien befinden sich im `system/layouts`-Verzeichnis. Alle CSS-Dateien befinden sich im `system/themes`-Verzeichnis. Du kannst diese Dateien beliebig ändern und auch deine eigenen Dateien hinzufügen. Deine Änderungen werden bei der Aktualisierung der Webseite nicht überschrieben.
 
@@ -40,7 +40,7 @@ Du kannst [Inhaltsdateien](https://datenstrom.se/de/yellow/help/how-to-change-th
 
 ## Wie man die Befehlszeile benutzt
 
-Für Entwickler und Designer stehen verschiedene Werkzeuge in der Befehlszeile zur Verfügung. Das gibt dir beispielsweise die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/readme-de.md), [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-generate/tree/main/readme-de.md) und Routineaufgaben zu automatisieren. Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen.
+Für Entwickler und Designer stehen verschiedene Werkzeuge in der Befehlszeile zur Verfügung. Das gibt dir beispielsweise die Möglichkeit [einen Webserver zu starten](https://github.com/annaesvensson/yellow-serve/tree/main/readme-de.md) und [eine statische Webseite zu generieren](https://github.com/annaesvensson/yellow-generate/tree/main/readme-de.md). Die verfügbaren Befehle hängen von den installierten Erweiterungen ab. Öffne ein Terminalfenster. Gehe ins Installations-Verzeichnis, dort wo sich die Datei `yellow.php` befindet. Gib ein `php yellow.php`, um die verfügbaren Befehle anzuzeigen.
 
 Die folgenden Befehle sind verfügbar:
 
