@@ -16,7 +16,7 @@ At the top of a page you can change `Title` and other [page settings](#settings-
 
 ## How to customise a website
 
-You can customise your website in the [system settings](#settings-system), for example the name of the website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email`, `From` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
+The first option is to customise your website using [system settings](#settings-system), for example the name of your website. The system settings contain the settings of your website and of all installed extensions. A new installation will automatically set `Sitename`, `Author`, `Email`, `From` and `Language`. All system settings are stored in file `system/extensions/yellow-system.ini`.
 
 The second option is to customise your website using [extensions](https://datenstrom.se/yellow/extensions/). There are extensions with additional features, languages and themes that you can install. The idea is that a new installation includes the most important things for a small website. You can install more extensions later. This allows you to customise nearly every aspect of a website.
 
