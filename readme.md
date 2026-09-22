@@ -70,7 +70,7 @@ Content file with normal page:
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
-Content file with short title:
+Content file with short title for the navigation:
 
     ---
     Title: Example page
@@ -205,6 +205,6 @@ The following files are part of the update mechanism:
 
 ## Acknowledgements
 
-This extension was previously maintained by Mark Seuffert and David Fehrmann. Thank you for the good work.
+This extension includes contributions by David Fehrmann and Mark Seuffert. Thank you for the good work.
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

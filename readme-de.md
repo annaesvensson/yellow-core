@@ -70,7 +70,7 @@ Inhaltsdatei mit normaler Seite:
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
 
-Inhaltsdatei mit kurzem Titel:
+Inhaltsdatei mit kurzem Titel für die Navigation:
 
     ---
     Title: Beispielseite
@@ -204,6 +204,6 @@ Die folgenden Einstellungen sind Teil des Aktualisieriungsmechanismus:
 
 ## Danksagung
 
-Diese Erweiterung wurde zuvor betreut von Mark Seuffert und David Fehrmann. Danke für die gute Arbeit.
+Diese Erweiterung enthält Beiträge von David Fehrmann und Mark Seuffert. Danke für die gute Arbeit.
 
 Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
