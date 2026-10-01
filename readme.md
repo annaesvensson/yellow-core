@@ -1,4 +1,4 @@
-# Core 1.0.2
+# Core 1.0.3
 
 Core functionality of your website. Developed by Anna Svensson.
 
