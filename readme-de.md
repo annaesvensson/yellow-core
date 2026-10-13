@@ -1,4 +1,4 @@
-# Core 1.0.6
+# Core 1.0.7
 
 Kernfunktionalität deiner Webseite. Entwickelt von Anna Svensson.
 
