@@ -174,7 +174,6 @@ Layoutfil för standardsidan:
 <a id="inställningar-status"></a>Följande sidstatusvärden stöds:
 
 `public` = sidan är en vanlig sida  
-`private` = sidan är inte synlig, användaren måste ange lösenord, [kräver private-tillägg](https://github.com/schulle4u/yellow-private)  
 `draft` = sidan är inte synlig, användaren måste logga in, [kräver draft-tillägg](https://github.com/annaesvensson/yellow-draft/tree/main/readme-sv.md)  
 `unlisted` = sidan är inte synlig, men kan nås med rätt länk  
 `shared` = sidan är inte synlig, men kan ingå i andra sidor  
