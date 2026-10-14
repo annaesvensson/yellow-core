@@ -1,4 +1,4 @@
-# Core 1.0.7
+# Core 1.0.8
 
 Kärnfunktionalitet på din webbplats. Utvecklad av Anna Svensson.
 
